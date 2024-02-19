@@ -24,7 +24,7 @@
   "dependencies": {
     "collect.js": "^4.36.1",
     "homey-log": "^2.1.0",
-    "homey-oauth2app": "^3.5.6",
+    "homey-oauth2app": "^3.5.7",
     "luxon": "^3.4.4",
     "node-fetch": "^2.7.0"
   },
