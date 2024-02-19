@@ -1,0 +1,17 @@
+{
+  "title": {
+    "en": "The leakage alarm turned on",
+    "nl": "De lekkagewaarschuwing gaat aan"
+  },
+  "highlight": true,
+  "platforms": [
+    "local"
+  ],
+  "args": [
+    {
+      "type": "device",
+      "name": "device",
+      "filter": "driver_id=sensor&capabilities=alarm_leak"
+    }
+  ]
+}

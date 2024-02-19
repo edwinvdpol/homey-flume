@@ -1,0 +1,16 @@
+{
+  "title": {
+    "en": "The budget alarm turned off",
+    "nl": "De begrotingwaarschuwing gaat uit"
+  },
+  "platforms": [
+    "local"
+  ],
+  "args": [
+    {
+      "type": "device",
+      "name": "device",
+      "filter": "driver_id=sensor&capabilities=alarm_budget"
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "id": "com.flume",
+  "version": "1.0.0",
+  "compatibility": ">=5.0.0",
+  "platforms": [
+    "local"
+  ],
+  "sdk": 3,
+  "brandColor": "#497969",
+  "name": {
+    "en": "Flume"
+  },
+  "description": {
+    "en": "A smarter way to track and reduce your water use."
+  },
+  "category": [
+    "appliances"
+  ],
+  "tags": {
+    "en": [
+      "flume",
+      "water",
+      "usage",
+      "leak",
+      "detection"
+    ],
+    "nl": [
+      "flume",
+      "water",
+      "verbruik",
+      "lekkage",
+      "detectie"
+    ]
+  },
+  "images": {
+    "small": "/assets/images/small.png",
+    "large": "/assets/images/large.png",
+    "xlarge": "/assets/images/xlarge.png"
+  },
+  "permissions": [],
+  "author": {
+    "name": "Edwin van de Pol",
+    "email": "developer@edwinvandepol.nl"
+  },
+  "contributors": {
+    "developers": [
+      {
+        "name": "Edwin van de Pol",
+        "email": "developer@edwinvandepol.nl"
+      }
+    ]
+  },
+  "contributing": {
+    "donate": {
+      "paypal": {
+        "username": "edwinvdpol"
+      }
+    }
+  },
+  "bugs": {
+    "url": "https://community.homey.app/t/102501"
+  },
+  "homeyCommunityTopicId": 102501,
+  "homepage": "https://flumewater.com",
+  "support": "https://community.homey.app/t/102501"
+}

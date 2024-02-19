@@ -1,0 +1,34 @@
+{
+  "type": "enum",
+  "title": {
+    "en": "Battery level",
+    "nl": "Batterijniveau"
+  },
+  "getable": true,
+  "setable": false,
+  "uiComponent": "sensor",
+  "icon": "/assets/capabilities/battery.svg",
+  "values": [
+    {
+      "id": "high",
+      "title": {
+        "en": "High",
+        "nl": "Hoog"
+      }
+    },
+    {
+      "id": "medium",
+      "title": {
+        "en": "Normal",
+        "nl": "Normaal"
+      }
+    },
+    {
+      "id": "low",
+      "title": {
+        "en": "Low",
+        "nl": "Laag"
+      }
+    }
+  ]
+}

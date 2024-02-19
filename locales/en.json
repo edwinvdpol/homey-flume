@@ -1,0 +1,13 @@
+{
+  "errors": {
+    "400": "Device not found in Flume account",
+    "401": "Flume API credentials are incorrect",
+    "403": "Flume API has denied access to this device",
+    "404": "Device not found in Flume account",
+    "50x": "Flume API is unavailable",
+    "clientId": "Enter a valid client ID",
+    "clientSecret": "Enter a valid client secret",
+    "network": "Flume API is unreachable",
+    "unknown": "An unknown error has occurred"
+  }
+}

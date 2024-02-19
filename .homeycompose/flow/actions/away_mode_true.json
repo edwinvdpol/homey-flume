@@ -1,0 +1,20 @@
+{
+  "title": {
+    "en": "Turn on Away Mode",
+    "nl": "Weg modus inschakelen"
+  },
+  "hint": {
+    "en": "Use this flowcard to turn on Away Mode.",
+    "nl": "Gebruik deze kaart om weg modus in te schakelen."
+  },
+  "platforms": [
+    "local"
+  ],
+  "args": [
+    {
+      "type": "device",
+      "name": "device",
+      "filter": "driver_id=sensor&capabilities=away_mode"
+    }
+  ]
+}

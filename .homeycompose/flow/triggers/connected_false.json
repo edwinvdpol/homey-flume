@@ -1,0 +1,16 @@
+{
+  "title": {
+    "en": "The device went offline",
+    "nl": "Het apparaat ging offline"
+  },
+  "platforms": [
+    "local"
+  ],
+  "args": [
+    {
+      "type": "device",
+      "name": "device",
+      "filter": "driver_id=sensor&capabilities=connected"
+    }
+  ]
+}

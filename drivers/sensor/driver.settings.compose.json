@@ -1,0 +1,25 @@
+[
+  {
+    "type": "group",
+    "label": {
+      "en": "Product"
+    },
+    "children": [
+      {
+        "$extends": "product_name"
+      }
+    ]
+  },
+  {
+    "type": "group",
+    "label": {
+      "en": "Location",
+      "nl": "Locatie"
+    },
+    "children": [
+      {
+        "$extends": "away_mode"
+      }
+    ]
+  }
+]

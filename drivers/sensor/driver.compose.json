@@ -1,0 +1,24 @@
+{
+  "name": {
+    "en": "Sensor"
+  },
+  "capabilities": [
+    "measure_water",
+    "meter_water",
+    "alarm_leak",
+    "alarm_usage",
+    "alarm_battery",
+    "alarm_budget",
+    "battery_level",
+    "away_mode",
+    "connected"
+  ],
+  "energy": {
+    "batteries": [
+      "OTHER"
+    ]
+  },
+  "$extends": [
+    "defaults"
+  ]
+}

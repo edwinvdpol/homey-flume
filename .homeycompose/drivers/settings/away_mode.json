@@ -1,0 +1,12 @@
+{
+  "type": "checkbox",
+  "label": {
+    "en": "Away Mode",
+    "nl": "Weg modus"
+  },
+  "value": false,
+  "hint": {
+    "en": "Away Mode is turned on.",
+    "nl": "Weg modus is ingeschakeld."
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "type": "boolean",
+  "title": {
+    "en": "Leakage alarm",
+    "nl": "Lekkage alarm"
+  },
+  "getable": true,
+  "setable": false,
+  "insights": true,
+  "uiComponent": "sensor",
+  "icon": "/assets/capabilities/alarm_leak.svg",
+  "insightsTitleTrue": {
+    "en": "Leakage alarm turned on",
+    "nl": "Lekkagealarm ging af"
+  },
+  "insightsTitleFalse": {
+    "en": "Leakage alarm turned off",
+    "nl": "Lekkagealarm ging uit"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "title": {
+    "en": "The usage alarm turned on",
+    "nl": "De verbruikwaarschuwing gaat aan"
+  },
+  "highlight": true,
+  "platforms": [
+    "local"
+  ],
+  "args": [
+    {
+      "type": "device",
+      "name": "device",
+      "filter": "driver_id=sensor&capabilities=alarm_usage"
+    }
+  ]
+}

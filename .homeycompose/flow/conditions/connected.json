@@ -1,0 +1,16 @@
+{
+  "title": {
+    "en": "The device is !{{on|off}}line",
+    "nl": "Het apparaat is !{{on|off}}line"
+  },
+  "platforms": [
+    "local"
+  ],
+  "args": [
+    {
+      "type": "device",
+      "name": "device",
+      "filter": "driver_id=sensor&capabilities=connected"
+    }
+  ]
+}

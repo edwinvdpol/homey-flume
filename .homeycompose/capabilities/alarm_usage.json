@@ -1,0 +1,20 @@
+{
+  "type": "boolean",
+  "title": {
+    "en": "Usage alarm",
+    "nl": "Verbruik alarm"
+  },
+  "getable": true,
+  "setable": false,
+  "insights": true,
+  "uiComponent": "sensor",
+  "icon": "/assets/capabilities/alarm_usage.svg",
+  "insightsTitleTrue": {
+    "en": "Usage alarm turned on",
+    "nl": "Verbruikalarm ging af"
+  },
+  "insightsTitleFalse": {
+    "en": "Usage alarm turned off",
+    "nl": "Verbruikalarm ging uit"
+  }
+}

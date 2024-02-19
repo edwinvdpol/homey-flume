@@ -1,0 +1,51 @@
+{
+  "title": {
+    "en": "Battery level changed",
+    "nl": "Batterijniveau is veranderd"
+  },
+  "titleFormatted": {
+    "en": "Battery level has changed to [[battery_level]]",
+    "nl": "Batterijniveau is veranderd naar [[battery_level]]"
+  },
+  "platforms": [
+    "local"
+  ],
+  "args": [
+    {
+      "type": "dropdown",
+      "name": "battery_level",
+      "title": {
+        "en": "level",
+        "nl": "niveau"
+      },
+      "values": [
+        {
+          "id": "high",
+          "title": {
+            "en": "High",
+            "nl": "Hoog"
+          }
+        },
+        {
+          "id": "medium",
+          "title": {
+            "en": "Normal",
+            "nl": "Normaal"
+          }
+        },
+        {
+          "id": "low",
+          "title": {
+            "en": "Low",
+            "nl": "Laag"
+          }
+        }
+      ]
+    },
+    {
+      "type": "device",
+      "name": "device",
+      "filter": "driver_id=sensor&capabilities=battery_level"
+    }
+  ]
+}

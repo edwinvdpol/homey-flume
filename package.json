@@ -1,0 +1,35 @@
+{
+  "name": "com.flume",
+  "version": "1.0.0",
+  "homepage": "https://github.com/edwinvdpol/com.flume#readme",
+  "license": "SEE LICENSE",
+  "author": {
+    "name": "Edwin van de Pol",
+    "email": "developer@edwinvandepol.nl"
+  },
+  "funding": [
+    {
+      "type": "individual",
+      "url": "https://paypal.me/edwinvdpol"
+    }
+  ],
+  "main": "app.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/edwinvdpol/com.flume.git"
+  },
+  "scripts": {
+    "lint": "eslint --ext .js,.ts --ignore-path .gitignore ."
+  },
+  "dependencies": {
+    "collect.js": "^4.36.1",
+    "homey-log": "^2.1.0",
+    "homey-oauth2app": "^3.5.6",
+    "luxon": "^3.4.4",
+    "node-fetch": "^2.7.0"
+  },
+  "devDependencies": {
+    "@types/homey": "npm:homey-apps-sdk-v3-types@^0.3.5",
+    "eslint-config-athom": "^3.1.3"
+  }
+}

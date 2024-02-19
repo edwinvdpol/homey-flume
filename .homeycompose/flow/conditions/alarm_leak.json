@@ -1,0 +1,16 @@
+{
+  "title": {
+    "en": "The leakage alarm is !{{on|off}}",
+    "nl": "De lekkagewaarschuwing is !{{aan|uit}}"
+  },
+  "platforms": [
+    "local"
+  ],
+  "args": [
+    {
+      "type": "device",
+      "name": "device",
+      "filter": "driver_id=sensor&capabilities=alarm_leak"
+    }
+  ]
+}

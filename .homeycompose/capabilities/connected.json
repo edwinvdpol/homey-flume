@@ -1,0 +1,19 @@
+{
+  "type": "boolean",
+  "title": {
+    "en": "Connected",
+    "nl": "Verbonden"
+  },
+  "getable": true,
+  "setable": false,
+  "insights": true,
+  "uiComponent": null,
+  "insightsTitleTrue": {
+    "en": "Device came online",
+    "nl": "Apparaat kwam online"
+  },
+  "insightsTitleFalse": {
+    "en": "Device went offline",
+    "nl": "Apparaat ging offline"
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "class": "sensor",
+  "images": {
+    "small": "{{driverAssetsPath}}/images/small.png",
+    "large": "{{driverAssetsPath}}/images/large.png",
+    "xlarge": "{{driverAssetsPath}}/images/xlarge.png"
+  },
+  "platforms": [
+    "local"
+  ],
+  "connectivity": [
+    "cloud"
+  ],
+  "pair": [
+    {
+      "id": "api_credentials",
+      "template": "login_credentials",
+      "options": {
+        "logo": "../../../assets/logo.svg",
+        "title": {
+          "en": "Enter your API credentials",
+          "nl": "Voer je API inloggegevens in"
+        },
+        "usernameLabel": {
+          "en": "Client ID"
+        },
+        "usernamePlaceholder": {
+          "en": "Create in Flume portal",
+          "nl": "Maak aan in Flume portal"
+        },
+        "passwordLabel": {
+          "en": "Client Secret"
+        },
+        "passwordPlaceholder": {
+          "en": "Create in Flume portal",
+          "nl": "Maak aan in Flume portal"
+        }
+      }
+    },
+    {
+      "id": "login_credentials",
+      "template": "login_credentials",
+      "options": {
+        "logo": "../../../assets/logo.svg",
+        "usernameLabel": {
+          "en": "Email Address",
+          "nl": "E-mailadres"
+        },
+        "usernamePlaceholder": {
+          "en": "email@example.com"
+        }
+      }
+    },
+    {
+      "id": "list_devices",
+      "template": "list_devices",
+      "navigation": {
+        "next": "add_devices"
+      }
+    },
+    {
+      "id": "add_devices",
+      "template": "add_devices"
+    }
+  ],
+  "repair": [
+    {
+      "id": "login_credentials",
+      "template": "login_credentials",
+      "options": {
+        "logo": "../../../assets/logo.svg"
+      }
+    }
+  ]
+}

@@ -1,0 +1,754 @@
+{
+  "_comment": "This file is generated. Please edit .homeycompose/app.json instead.",
+  "id": "com.flume",
+  "version": "1.0.0",
+  "compatibility": ">=5.0.0",
+  "platforms": [
+    "local"
+  ],
+  "sdk": 3,
+  "brandColor": "#497969",
+  "name": {
+    "en": "Flume"
+  },
+  "description": {
+    "en": "A smarter way to track and reduce your water use."
+  },
+  "category": [
+    "appliances"
+  ],
+  "tags": {
+    "en": [
+      "flume",
+      "water",
+      "usage",
+      "leak",
+      "detection"
+    ],
+    "nl": [
+      "flume",
+      "water",
+      "verbruik",
+      "lekkage",
+      "detectie"
+    ]
+  },
+  "images": {
+    "small": "/assets/images/small.png",
+    "large": "/assets/images/large.png",
+    "xlarge": "/assets/images/xlarge.png"
+  },
+  "permissions": [],
+  "author": {
+    "name": "Edwin van de Pol",
+    "email": "developer@edwinvandepol.nl"
+  },
+  "contributors": {
+    "developers": [
+      {
+        "name": "Edwin van de Pol",
+        "email": "developer@edwinvandepol.nl"
+      }
+    ]
+  },
+  "contributing": {
+    "donate": {
+      "paypal": {
+        "username": "edwinvdpol"
+      }
+    }
+  },
+  "bugs": {
+    "url": "https://community.homey.app/t/102501"
+  },
+  "homeyCommunityTopicId": 102501,
+  "homepage": "https://flumewater.com",
+  "support": "https://community.homey.app/t/102501",
+  "flow": {
+    "triggers": [
+      {
+        "title": {
+          "en": "The budget alarm turned off",
+          "nl": "De begrotingwaarschuwing gaat uit"
+        },
+        "platforms": [
+          "local"
+        ],
+        "args": [
+          {
+            "type": "device",
+            "name": "device",
+            "filter": "driver_id=sensor&capabilities=alarm_budget"
+          }
+        ],
+        "id": "alarm_budget_false"
+      },
+      {
+        "title": {
+          "en": "The budget alarm turned on",
+          "nl": "De begrotingwaarschuwing gaat aan"
+        },
+        "platforms": [
+          "local"
+        ],
+        "args": [
+          {
+            "type": "device",
+            "name": "device",
+            "filter": "driver_id=sensor&capabilities=alarm_budget"
+          }
+        ],
+        "id": "alarm_budget_true"
+      },
+      {
+        "title": {
+          "en": "The leakage alarm turned off",
+          "nl": "De lekkagewaarschuwing gaat uit"
+        },
+        "platforms": [
+          "local"
+        ],
+        "args": [
+          {
+            "type": "device",
+            "name": "device",
+            "filter": "driver_id=sensor&capabilities=alarm_leak"
+          }
+        ],
+        "id": "alarm_leak_false"
+      },
+      {
+        "title": {
+          "en": "The leakage alarm turned on",
+          "nl": "De lekkagewaarschuwing gaat aan"
+        },
+        "highlight": true,
+        "platforms": [
+          "local"
+        ],
+        "args": [
+          {
+            "type": "device",
+            "name": "device",
+            "filter": "driver_id=sensor&capabilities=alarm_leak"
+          }
+        ],
+        "id": "alarm_leak_true"
+      },
+      {
+        "title": {
+          "en": "The usage alarm turned off",
+          "nl": "De verbruikwaarschuwing gaat uit"
+        },
+        "platforms": [
+          "local"
+        ],
+        "args": [
+          {
+            "type": "device",
+            "name": "device",
+            "filter": "driver_id=sensor&capabilities=alarm_usage"
+          }
+        ],
+        "id": "alarm_usage_false"
+      },
+      {
+        "title": {
+          "en": "The usage alarm turned on",
+          "nl": "De verbruikwaarschuwing gaat aan"
+        },
+        "highlight": true,
+        "platforms": [
+          "local"
+        ],
+        "args": [
+          {
+            "type": "device",
+            "name": "device",
+            "filter": "driver_id=sensor&capabilities=alarm_usage"
+          }
+        ],
+        "id": "alarm_usage_true"
+      },
+      {
+        "title": {
+          "en": "Away Mode was turned off",
+          "nl": "Weg modus werd uitgeschakeld"
+        },
+        "platforms": [
+          "local"
+        ],
+        "args": [
+          {
+            "type": "device",
+            "name": "device",
+            "filter": "driver_id=sensor&capabilities=away_mode"
+          }
+        ],
+        "id": "away_mode_false"
+      },
+      {
+        "title": {
+          "en": "Away Mode was turned on",
+          "nl": "Weg modus werd ingeschakeld"
+        },
+        "platforms": [
+          "local"
+        ],
+        "args": [
+          {
+            "type": "device",
+            "name": "device",
+            "filter": "driver_id=sensor&capabilities=away_mode"
+          }
+        ],
+        "id": "away_mode_true"
+      },
+      {
+        "title": {
+          "en": "Battery level changed",
+          "nl": "Batterijniveau is veranderd"
+        },
+        "titleFormatted": {
+          "en": "Battery level has changed to [[battery_level]]",
+          "nl": "Batterijniveau is veranderd naar [[battery_level]]"
+        },
+        "platforms": [
+          "local"
+        ],
+        "args": [
+          {
+            "type": "dropdown",
+            "name": "battery_level",
+            "title": {
+              "en": "level",
+              "nl": "niveau"
+            },
+            "values": [
+              {
+                "id": "high",
+                "title": {
+                  "en": "High",
+                  "nl": "Hoog"
+                }
+              },
+              {
+                "id": "medium",
+                "title": {
+                  "en": "Normal",
+                  "nl": "Normaal"
+                }
+              },
+              {
+                "id": "low",
+                "title": {
+                  "en": "Low",
+                  "nl": "Laag"
+                }
+              }
+            ]
+          },
+          {
+            "type": "device",
+            "name": "device",
+            "filter": "driver_id=sensor&capabilities=battery_level"
+          }
+        ],
+        "id": "battery_level_changed"
+      },
+      {
+        "title": {
+          "en": "The device went offline",
+          "nl": "Het apparaat ging offline"
+        },
+        "platforms": [
+          "local"
+        ],
+        "args": [
+          {
+            "type": "device",
+            "name": "device",
+            "filter": "driver_id=sensor&capabilities=connected"
+          }
+        ],
+        "id": "connected_false"
+      },
+      {
+        "title": {
+          "en": "The device came online",
+          "nl": "Het apparaat kwam online"
+        },
+        "platforms": [
+          "local"
+        ],
+        "args": [
+          {
+            "type": "device",
+            "name": "device",
+            "filter": "driver_id=sensor&capabilities=connected"
+          }
+        ],
+        "id": "connected_true"
+      }
+    ],
+    "conditions": [
+      {
+        "title": {
+          "en": "The budget alarm is !{{on|off}}",
+          "nl": "De begrotingwaarschuwing is !{{aan|uit}}"
+        },
+        "platforms": [
+          "local"
+        ],
+        "args": [
+          {
+            "type": "device",
+            "name": "device",
+            "filter": "driver_id=sensor&capabilities=alarm_budget"
+          }
+        ],
+        "id": "alarm_budget"
+      },
+      {
+        "title": {
+          "en": "The leakage alarm is !{{on|off}}",
+          "nl": "De lekkagewaarschuwing is !{{aan|uit}}"
+        },
+        "platforms": [
+          "local"
+        ],
+        "args": [
+          {
+            "type": "device",
+            "name": "device",
+            "filter": "driver_id=sensor&capabilities=alarm_leak"
+          }
+        ],
+        "id": "alarm_leak"
+      },
+      {
+        "title": {
+          "en": "The usage alarm is !{{on|off}}",
+          "nl": "De verbruikwaarschuwing is !{{aan|uit}}"
+        },
+        "platforms": [
+          "local"
+        ],
+        "args": [
+          {
+            "type": "device",
+            "name": "device",
+            "filter": "driver_id=sensor&capabilities=alarm_usage"
+          }
+        ],
+        "id": "alarm_usage"
+      },
+      {
+        "title": {
+          "en": "Away Mode is turned !{{on|off}}",
+          "nl": "Weg modus is !{{in|uit}}geschakeld"
+        },
+        "platforms": [
+          "local"
+        ],
+        "args": [
+          {
+            "type": "device",
+            "name": "device",
+            "filter": "driver_id=sensor&capabilities=away_mode"
+          }
+        ],
+        "id": "away_mode"
+      },
+      {
+        "title": {
+          "en": "The battery level !{{is|is not}}",
+          "nl": "Het batterijniveau !{{is|is niet}}"
+        },
+        "titleFormatted": {
+          "en": "The battery level !{{is|is not}} [[battery_level]]",
+          "nl": "Het batterijniveau !{{is|is niet}} [[battery_level]]"
+        },
+        "platforms": [
+          "local"
+        ],
+        "args": [
+          {
+            "type": "dropdown",
+            "name": "battery_level",
+            "title": {
+              "en": "level",
+              "nl": "niveau"
+            },
+            "values": [
+              {
+                "id": "high",
+                "title": {
+                  "en": "High",
+                  "nl": "Hoog"
+                }
+              },
+              {
+                "id": "medium",
+                "title": {
+                  "en": "Normal",
+                  "nl": "Normaal"
+                }
+              },
+              {
+                "id": "low",
+                "title": {
+                  "en": "Low",
+                  "nl": "Laag"
+                }
+              }
+            ]
+          },
+          {
+            "type": "device",
+            "name": "device",
+            "filter": "driver_id=sensor&capabilities=battery_level"
+          }
+        ],
+        "id": "battery_level"
+      },
+      {
+        "title": {
+          "en": "The device is !{{on|off}}line",
+          "nl": "Het apparaat is !{{on|off}}line"
+        },
+        "platforms": [
+          "local"
+        ],
+        "args": [
+          {
+            "type": "device",
+            "name": "device",
+            "filter": "driver_id=sensor&capabilities=connected"
+          }
+        ],
+        "id": "connected"
+      }
+    ],
+    "actions": [
+      {
+        "title": {
+          "en": "Turn off Away Mode",
+          "nl": "Weg modus uitschakelen"
+        },
+        "hint": {
+          "en": "Use this flowcard to turn off Away Mode.",
+          "nl": "Gebruik deze kaart om weg modus uit te schakelen."
+        },
+        "platforms": [
+          "local"
+        ],
+        "args": [
+          {
+            "type": "device",
+            "name": "device",
+            "filter": "driver_id=sensor&capabilities=away_mode"
+          }
+        ],
+        "id": "away_mode_false"
+      },
+      {
+        "title": {
+          "en": "Turn on Away Mode",
+          "nl": "Weg modus inschakelen"
+        },
+        "hint": {
+          "en": "Use this flowcard to turn on Away Mode.",
+          "nl": "Gebruik deze kaart om weg modus in te schakelen."
+        },
+        "platforms": [
+          "local"
+        ],
+        "args": [
+          {
+            "type": "device",
+            "name": "device",
+            "filter": "driver_id=sensor&capabilities=away_mode"
+          }
+        ],
+        "id": "away_mode_true"
+      }
+    ]
+  },
+  "drivers": [
+    {
+      "class": "sensor",
+      "images": {
+        "small": "/drivers/sensor/assets/images/small.png",
+        "large": "/drivers/sensor/assets/images/large.png",
+        "xlarge": "/drivers/sensor/assets/images/xlarge.png"
+      },
+      "platforms": [
+        "local"
+      ],
+      "connectivity": [
+        "cloud"
+      ],
+      "pair": [
+        {
+          "id": "api_credentials",
+          "template": "login_credentials",
+          "options": {
+            "logo": "../../../assets/logo.svg",
+            "title": {
+              "en": "Enter your API credentials",
+              "nl": "Voer je API inloggegevens in"
+            },
+            "usernameLabel": {
+              "en": "Client ID"
+            },
+            "usernamePlaceholder": {
+              "en": "Create in Flume portal",
+              "nl": "Maak aan in Flume portal"
+            },
+            "passwordLabel": {
+              "en": "Client Secret"
+            },
+            "passwordPlaceholder": {
+              "en": "Create in Flume portal",
+              "nl": "Maak aan in Flume portal"
+            }
+          }
+        },
+        {
+          "id": "login_credentials",
+          "template": "login_credentials",
+          "options": {
+            "logo": "../../../assets/logo.svg",
+            "usernameLabel": {
+              "en": "Email Address",
+              "nl": "E-mailadres"
+            },
+            "usernamePlaceholder": {
+              "en": "email@example.com"
+            }
+          }
+        },
+        {
+          "id": "list_devices",
+          "template": "list_devices",
+          "navigation": {
+            "next": "add_devices"
+          }
+        },
+        {
+          "id": "add_devices",
+          "template": "add_devices"
+        }
+      ],
+      "repair": [
+        {
+          "id": "login_credentials",
+          "template": "login_credentials",
+          "options": {
+            "logo": "../../../assets/logo.svg"
+          }
+        }
+      ],
+      "name": {
+        "en": "Sensor"
+      },
+      "capabilities": [
+        "measure_water",
+        "meter_water",
+        "alarm_leak",
+        "alarm_usage",
+        "alarm_battery",
+        "alarm_budget",
+        "battery_level",
+        "away_mode",
+        "connected"
+      ],
+      "energy": {
+        "batteries": [
+          "OTHER"
+        ]
+      },
+      "id": "sensor",
+      "settings": [
+        {
+          "type": "group",
+          "label": {
+            "en": "Product"
+          },
+          "children": [
+            {
+              "id": "product_name",
+              "type": "label",
+              "label": {
+                "en": "Name",
+                "nl": "Naam"
+              },
+              "value": "-",
+              "hint": {
+                "en": "The name of product.",
+                "nl": "De naam van het product."
+              }
+            }
+          ]
+        },
+        {
+          "type": "group",
+          "label": {
+            "en": "Location",
+            "nl": "Locatie"
+          },
+          "children": [
+            {
+              "id": "away_mode",
+              "type": "checkbox",
+              "label": {
+                "en": "Away Mode",
+                "nl": "Weg modus"
+              },
+              "value": false,
+              "hint": {
+                "en": "Away Mode is turned on.",
+                "nl": "Weg modus is ingeschakeld."
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "capabilities": {
+    "alarm_budget": {
+      "type": "boolean",
+      "title": {
+        "en": "Budget alarm",
+        "nl": "Begroting alarm"
+      },
+      "getable": true,
+      "setable": false,
+      "insights": true,
+      "uiComponent": "sensor",
+      "icon": "/assets/capabilities/alarm_budget.svg",
+      "insightsTitleTrue": {
+        "en": "Budget alarm turned on",
+        "nl": "Begrotingalarm ging af"
+      },
+      "insightsTitleFalse": {
+        "en": "Budget alarm turned off",
+        "nl": "Begrotingalarm ging uit"
+      }
+    },
+    "alarm_leak": {
+      "type": "boolean",
+      "title": {
+        "en": "Leakage alarm",
+        "nl": "Lekkage alarm"
+      },
+      "getable": true,
+      "setable": false,
+      "insights": true,
+      "uiComponent": "sensor",
+      "icon": "/assets/capabilities/alarm_leak.svg",
+      "insightsTitleTrue": {
+        "en": "Leakage alarm turned on",
+        "nl": "Lekkagealarm ging af"
+      },
+      "insightsTitleFalse": {
+        "en": "Leakage alarm turned off",
+        "nl": "Lekkagealarm ging uit"
+      }
+    },
+    "alarm_usage": {
+      "type": "boolean",
+      "title": {
+        "en": "Usage alarm",
+        "nl": "Verbruik alarm"
+      },
+      "getable": true,
+      "setable": false,
+      "insights": true,
+      "uiComponent": "sensor",
+      "icon": "/assets/capabilities/alarm_usage.svg",
+      "insightsTitleTrue": {
+        "en": "Usage alarm turned on",
+        "nl": "Verbruikalarm ging af"
+      },
+      "insightsTitleFalse": {
+        "en": "Usage alarm turned off",
+        "nl": "Verbruikalarm ging uit"
+      }
+    },
+    "away_mode": {
+      "type": "boolean",
+      "title": {
+        "en": "Away Mode",
+        "nl": "Weg modus"
+      },
+      "getable": true,
+      "setable": false,
+      "insights": true,
+      "uiComponent": null,
+      "insightsTitleTrue": {
+        "en": "Away Mode was turned on",
+        "nl": "Weg modus werd ingeschakeld"
+      },
+      "insightsTitleFalse": {
+        "en": "Away Mode was turned off",
+        "nl": "Weg modus werd uitgeschakeld"
+      }
+    },
+    "battery_level": {
+      "type": "enum",
+      "title": {
+        "en": "Battery level",
+        "nl": "Batterijniveau"
+      },
+      "getable": true,
+      "setable": false,
+      "uiComponent": "sensor",
+      "icon": "/assets/capabilities/battery.svg",
+      "values": [
+        {
+          "id": "high",
+          "title": {
+            "en": "High",
+            "nl": "Hoog"
+          }
+        },
+        {
+          "id": "medium",
+          "title": {
+            "en": "Normal",
+            "nl": "Normaal"
+          }
+        },
+        {
+          "id": "low",
+          "title": {
+            "en": "Low",
+            "nl": "Laag"
+          }
+        }
+      ]
+    },
+    "connected": {
+      "type": "boolean",
+      "title": {
+        "en": "Connected",
+        "nl": "Verbonden"
+      },
+      "getable": true,
+      "setable": false,
+      "insights": true,
+      "uiComponent": null,
+      "insightsTitleTrue": {
+        "en": "Device came online",
+        "nl": "Apparaat kwam online"
+      },
+      "insightsTitleFalse": {
+        "en": "Device went offline",
+        "nl": "Apparaat ging offline"
+      }
+    }
+  }
+}

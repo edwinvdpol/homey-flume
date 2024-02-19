@@ -1,0 +1,16 @@
+{
+  "title": {
+    "en": "Away Mode was turned on",
+    "nl": "Weg modus werd ingeschakeld"
+  },
+  "platforms": [
+    "local"
+  ],
+  "args": [
+    {
+      "type": "device",
+      "name": "device",
+      "filter": "driver_id=sensor&capabilities=away_mode"
+    }
+  ]
+}
