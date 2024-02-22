@@ -104,12 +104,19 @@ class SensorDevice extends Device {
   async syncUsage() {
     this.log('[Sync] Device usage');
 
-    // Get device usage
-    let data = await this.oAuth2Client.getDeviceUsage(
-      this.getData().id,
-      this.constructor.SYNC_INTERVAL,
-      this.getStoreValue('timezone'),
-    );
+    let data;
+
+    try {
+      // Get device usage
+      data = await this.oAuth2Client.getDeviceUsage(
+        this.getData().id,
+        this.constructor.SYNC_INTERVAL,
+        this.getStoreValue('timezone'),
+      );
+    } catch (err) {
+      this.error('[Sync]', err.toString());
+      data = {};
+    }
 
     if (blank(data)) return;
 
