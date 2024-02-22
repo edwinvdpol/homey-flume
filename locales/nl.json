@@ -9,5 +9,12 @@
     "clientSecret": "Vul een geldig client secret in",
     "network": "Flume API is niet bereikbaar",
     "unknown": "Er is een onbekende fout opgetreden"
+  },
+  "pair": {
+    "login": "Inloggen",
+    "password": "Wachtwoord",
+    "saving": "Opslaan",
+    "title": "Voer je inloggegevens in",
+    "username": "E-mailadres"
   }
 }

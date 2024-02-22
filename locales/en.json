@@ -9,5 +9,12 @@
     "clientSecret": "Enter a valid client secret",
     "network": "Flume API is unreachable",
     "unknown": "An unknown error has occurred"
+  },
+  "pair": {
+    "login": "Login",
+    "password": "Password",
+    "saving": "Saving",
+    "title": "Log in with your credentials",
+    "username": "Email Address"
   }
 }
