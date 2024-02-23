@@ -5,16 +5,12 @@
     "403": "Flume API has denied access to this device",
     "404": "Device not found in Flume account",
     "50x": "Flume API is unavailable",
-    "clientId": "Enter a valid client ID",
-    "clientSecret": "Enter a valid client secret",
+    "invalid_client": "These credentials are incorrect",
     "network": "Flume API is unreachable",
     "unknown": "An unknown error has occurred"
   },
   "pair": {
-    "login": "Login",
-    "password": "Password",
     "saving": "Saving",
-    "title": "Log in with your credentials",
     "username": "Email Address"
   }
 }
