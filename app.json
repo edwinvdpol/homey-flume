@@ -507,11 +507,7 @@
       ],
       "repair": [
         {
-          "id": "login_credentials",
-          "template": "login_credentials",
-          "options": {
-            "logo": "../../../assets/logo.svg"
-          }
+          "id": "credentials"
         }
       ],
       "name": {
