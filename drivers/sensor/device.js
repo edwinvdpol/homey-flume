@@ -102,11 +102,11 @@ class SensorDevice extends Device {
 
   // Synchronize usage
   async syncUsage() {
-    this.log('[Sync] Device usage');
-
     let data;
 
     try {
+      this.log('[Sync] Device usage');
+
       // Get device usage
       data = await this.oAuth2Client.getDeviceUsage(
         this.getData().id,
