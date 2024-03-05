@@ -25,15 +25,17 @@ class SensorDevice extends Device {
   async onSettings({ oldSettings, newSettings, changedKeys }) {
     this.log('[Settings] Updating');
 
-    // Away mode updated
-    if (changedKeys.includes('away_mode')) {
-      const mode = newSettings.away_mode;
+    for (const name of changedKeys) {
+      const newValue = newSettings[name];
 
-      this.log(`Away Mode is now '${mode}'`);
+      this.log(`[Settings] '${name}' is now '${newValue}'`);
 
-      await this.setAwayMode(mode);
+      // Away mode
+      if (name === 'away_mode') {
+        await this.setAwayMode(newValue);
 
-      this.setCapabilityValue('away_mode', mode).catch(this.error);
+        this.setCapabilityValue('away_mode', newValue).catch(this.error);
+      }
     }
 
     this.log('[Settings] Updated');
