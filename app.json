@@ -587,8 +587,6 @@
       "getable": true,
       "setable": false,
       "insights": true,
-      "uiComponent": "sensor",
-      "icon": "/assets/capabilities/alarm_budget.svg",
       "insightsTitleTrue": {
         "en": "Budget alarm turned on",
         "nl": "Begrotingalarm ging af"
@@ -596,7 +594,9 @@
       "insightsTitleFalse": {
         "en": "Budget alarm turned off",
         "nl": "Begrotingalarm ging uit"
-      }
+      },
+      "uiComponent": "sensor",
+      "icon": "/assets/capabilities/alarm_budget.svg"
     },
     "alarm_leak": {
       "type": "boolean",
@@ -607,8 +607,6 @@
       "getable": true,
       "setable": false,
       "insights": true,
-      "uiComponent": "sensor",
-      "icon": "/assets/capabilities/alarm_leak.svg",
       "insightsTitleTrue": {
         "en": "Leakage alarm turned on",
         "nl": "Lekkagealarm ging af"
@@ -616,7 +614,9 @@
       "insightsTitleFalse": {
         "en": "Leakage alarm turned off",
         "nl": "Lekkagealarm ging uit"
-      }
+      },
+      "uiComponent": "sensor",
+      "icon": "/assets/capabilities/alarm_leak.svg"
     },
     "alarm_usage": {
       "type": "boolean",
@@ -627,8 +627,6 @@
       "getable": true,
       "setable": false,
       "insights": true,
-      "uiComponent": "sensor",
-      "icon": "/assets/capabilities/alarm_usage.svg",
       "insightsTitleTrue": {
         "en": "Usage alarm turned on",
         "nl": "Verbruikalarm ging af"
@@ -636,26 +634,28 @@
       "insightsTitleFalse": {
         "en": "Usage alarm turned off",
         "nl": "Verbruikalarm ging uit"
-      }
+      },
+      "uiComponent": "sensor",
+      "icon": "/assets/capabilities/alarm_usage.svg"
     },
     "away_mode": {
       "type": "boolean",
       "title": {
-        "en": "Away Mode",
+        "en": "Away mode",
         "nl": "Weg modus"
       },
       "getable": true,
       "setable": false,
       "insights": true,
-      "uiComponent": null,
       "insightsTitleTrue": {
-        "en": "Away Mode was turned on",
-        "nl": "Weg modus werd ingeschakeld"
+        "en": "Away mode turned on",
+        "nl": "Weg modus ingeschakeld"
       },
       "insightsTitleFalse": {
-        "en": "Away Mode was turned off",
-        "nl": "Weg modus werd uitgeschakeld"
-      }
+        "en": "Away mode turned off",
+        "nl": "Weg modus uitgeschakeld"
+      },
+      "uiComponent": null
     },
     "battery_level": {
       "type": "enum",
@@ -665,8 +665,6 @@
       },
       "getable": true,
       "setable": false,
-      "uiComponent": "sensor",
-      "icon": "/assets/capabilities/battery.svg",
       "values": [
         {
           "id": "high",
@@ -689,7 +687,9 @@
             "nl": "Laag"
           }
         }
-      ]
+      ],
+      "uiComponent": "sensor",
+      "icon": "/assets/capabilities/battery.svg"
     },
     "connected": {
       "type": "boolean",
@@ -700,15 +700,15 @@
       "getable": true,
       "setable": false,
       "insights": true,
-      "uiComponent": null,
       "insightsTitleTrue": {
-        "en": "Device came online",
-        "nl": "Apparaat kwam online"
+        "en": "Device online",
+        "nl": "Apparaat online"
       },
       "insightsTitleFalse": {
-        "en": "Device went offline",
-        "nl": "Apparaat ging offline"
-      }
+        "en": "Device offline",
+        "nl": "Apparaat offline"
+      },
+      "uiComponent": null
     }
   }
 }

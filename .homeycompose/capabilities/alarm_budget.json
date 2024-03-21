@@ -7,8 +7,6 @@
   "getable": true,
   "setable": false,
   "insights": true,
-  "uiComponent": "sensor",
-  "icon": "/assets/capabilities/alarm_budget.svg",
   "insightsTitleTrue": {
     "en": "Budget alarm turned on",
     "nl": "Begrotingalarm ging af"
@@ -16,5 +14,7 @@
   "insightsTitleFalse": {
     "en": "Budget alarm turned off",
     "nl": "Begrotingalarm ging uit"
-  }
+  },
+  "uiComponent": "sensor",
+  "icon": "/assets/capabilities/alarm_budget.svg"
 }

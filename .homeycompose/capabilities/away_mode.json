@@ -1,19 +1,19 @@
 {
   "type": "boolean",
   "title": {
-    "en": "Away Mode",
+    "en": "Away mode",
     "nl": "Weg modus"
   },
   "getable": true,
   "setable": false,
   "insights": true,
-  "uiComponent": null,
   "insightsTitleTrue": {
-    "en": "Away Mode was turned on",
-    "nl": "Weg modus werd ingeschakeld"
+    "en": "Away mode turned on",
+    "nl": "Weg modus ingeschakeld"
   },
   "insightsTitleFalse": {
-    "en": "Away Mode was turned off",
-    "nl": "Weg modus werd uitgeschakeld"
-  }
+    "en": "Away mode turned off",
+    "nl": "Weg modus uitgeschakeld"
+  },
+  "uiComponent": null
 }

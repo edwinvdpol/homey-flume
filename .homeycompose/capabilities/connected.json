@@ -7,13 +7,13 @@
   "getable": true,
   "setable": false,
   "insights": true,
-  "uiComponent": null,
   "insightsTitleTrue": {
-    "en": "Device came online",
-    "nl": "Apparaat kwam online"
+    "en": "Device online",
+    "nl": "Apparaat online"
   },
   "insightsTitleFalse": {
-    "en": "Device went offline",
-    "nl": "Apparaat ging offline"
-  }
+    "en": "Device offline",
+    "nl": "Apparaat offline"
+  },
+  "uiComponent": null
 }

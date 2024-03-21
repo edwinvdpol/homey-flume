@@ -6,8 +6,6 @@
   },
   "getable": true,
   "setable": false,
-  "uiComponent": "sensor",
-  "icon": "/assets/capabilities/battery.svg",
   "values": [
     {
       "id": "high",
@@ -30,5 +28,7 @@
         "nl": "Laag"
       }
     }
-  ]
+  ],
+  "uiComponent": "sensor",
+  "icon": "/assets/capabilities/battery.svg"
 }
