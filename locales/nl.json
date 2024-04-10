@@ -1,5 +1,5 @@
 {
-  "errors": {
+  "error": {
     "400": "Apparaat is niet gevonden in Flume account",
     "401": "Inloggegevens van de Flume API zijn onjuist",
     "403": "Flume API heeft de toegang tot dit apparaat geweigerd",

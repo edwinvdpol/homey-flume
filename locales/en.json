@@ -1,5 +1,5 @@
 {
-  "errors": {
+  "error": {
     "400": "Device not found in Flume account",
     "401": "Flume API credentials are incorrect",
     "403": "Flume API has denied access to this device",
