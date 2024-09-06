@@ -38,8 +38,8 @@ jobs:
       - name: Commit version
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          commit_message: "Version ${{ steps.update_version.outputs.version }}"
-          tagging_message: "v${{ steps.update_version.outputs.version }}"
+          commit_message: Version ${{ steps.update_version.outputs.version }}
+          tagging_message: v${{ steps.update_version.outputs.version }}
 
       - name: Publish
         uses: athombv/github-action-homey-app-publish@master
@@ -55,3 +55,4 @@ jobs:
         with:
           body: ${{ inputs.changelog }}
           make_latest: true
+          tag_name: v${{ steps.update_version.outputs.version }}
