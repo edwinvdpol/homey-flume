@@ -7,5 +7,5 @@ on:
 
 jobs:
   main:
-    uses: edwinvdpol/.github/workflows/homey/validate.yml@main
+    uses: edwinvdpol/.github/workflows/homey-validate.yml@main
     secrets: inherit
