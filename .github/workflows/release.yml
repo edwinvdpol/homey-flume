@@ -5,5 +5,7 @@ on:
 
 jobs:
   main:
+    permissions:
+      contents: write
     uses: edwinvdpol/homey-workflows/.github/workflows/release.yml@main
     secrets: inherit
