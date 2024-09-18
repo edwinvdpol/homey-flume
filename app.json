@@ -245,6 +245,13 @@
                   "en": "Low",
                   "nl": "Laag"
                 }
+              },
+              {
+                "id": "unknown",
+                "title": {
+                  "en": "Unknown",
+                  "nl": "Onbekend"
+                }
               }
             ]
           },
@@ -400,6 +407,13 @@
                 "title": {
                   "en": "Low",
                   "nl": "Laag"
+                }
+              },
+              {
+                "id": "unknown",
+                "title": {
+                  "en": "Unknown",
+                  "nl": "Onbekend"
                 }
               }
             ]
@@ -685,6 +699,13 @@
           "title": {
             "en": "Low",
             "nl": "Laag"
+          }
+        },
+        {
+          "id": "unknown",
+          "title": {
+            "en": "Unknown",
+            "nl": "Onbekend"
           }
         }
       ],
