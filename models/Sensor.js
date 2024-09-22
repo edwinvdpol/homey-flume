@@ -26,10 +26,10 @@ class Sensor {
     if (!this.valid) return {};
 
     return Object.fromEntries(Object.entries({
-      away_mode: this.location.away_mode || null,
+      away_mode: this.location?.away_mode || null,
       battery_level: this.battery_level || 'unknown',
       connected: this.connected || null,
-    }).filter(([_, v]) => v || typeof v === 'boolean'));
+    }).filter(([_, v]) => v));
   }
 
   /**
@@ -41,7 +41,7 @@ class Sensor {
     if (!this.valid) return {};
 
     return {
-      name: this.location.name,
+      name: this.location?.name,
       data: {
         id: this.id,
       },
@@ -59,10 +59,8 @@ class Sensor {
    * }}
    */
   get settings() {
-    if (!this.valid) return {};
-
     return {
-      away_mode: this.location.away_mode || false,
+      away_mode: this.location?.away_mode || false,
       product_name: this.product || '-',
     };
   }
@@ -70,14 +68,15 @@ class Sensor {
   /**
    * Return device store.
    *
-   * @return {Object}
+   * @return {{
+   *  location_id: string,
+   *  timezone: string
+   * }}
    */
   get store() {
-    if (!this.valid) return {};
-
     return {
-      location_id: this.location.id || '-',
-      timezone: this.location.tz || '-',
+      location_id: this.location?.id || '-',
+      timezone: this.location?.tz || '-',
     };
   }
 
