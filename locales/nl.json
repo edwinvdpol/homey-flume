@@ -1,7 +1,4 @@
 {
-  "authentication": {
-    "connecting": "Bezig met verbinden..."
-  },
   "error": {
     "400": "Apparaat is niet gevonden in Flume account",
     "401": "Inloggegevens van de Flume API zijn onjuist",
