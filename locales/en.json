@@ -1,4 +1,7 @@
 {
+  "authentication": {
+    "connecting": "Connecting..."
+  },
   "error": {
     "400": "Device not found in Flume account",
     "401": "Flume API credentials are incorrect",
