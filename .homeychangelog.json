@@ -13,5 +13,8 @@
   },
   "1.1.1": {
     "en": "Stability and performance improvements."
+  },
+  "1.1.2": {
+    "en": "Improved error handling"
   }
 }
