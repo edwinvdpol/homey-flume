@@ -8,10 +8,32 @@
   "sdk": 3,
   "brandColor": "#497969",
   "name": {
-    "en": "Flume"
+    "en": "Flume",
+    "nl": "Flume",
+    "da": "Flume",
+    "de": "Flume",
+    "es": "Flume",
+    "fr": "Flume",
+    "it": "Flume",
+    "no": "Flume",
+    "sv": "Flume",
+    "pl": "Flume",
+    "ru": "Flume",
+    "ko": "Flume"
   },
   "description": {
-    "en": "A smarter way to track and reduce your water use."
+    "en": "A smarter way to track and reduce your water use.",
+    "nl": "Een slimme manier om je watergebruik bij te houden en te verminderen.",
+    "da": "En smartere måde at spore og reducere dit vandforbrug.",
+    "de": "Eine intelligentere Art, Ihren Wasserverbrauch zu verfolgen und zu reduzieren.",
+    "es": "Una forma más inteligente de rastrear y reducir tu uso de agua.",
+    "fr": "Une façon plus intelligente de suivre et de réduire votre consommation d'eau.",
+    "it": "Un modo più intelligente per monitorare et ridurre il tuo consumo d'acqua.",
+    "no": "En smartere måte å spore og redusere vannforbruket ditt.",
+    "sv": "Ett smartare sätt att spåra och minska din vattenanvändning.",
+    "pl": "Inteligentniejszy sposób na śledzenie i redukcję zużycia wody.",
+    "ru": "Более умный способ отслеживать и сокращать потребление воды.",
+    "ko": "물 사용량을 추적하고 줄이는 더 스마트한 방법입니다."
   },
   "category": [
     "appliances"
@@ -30,6 +52,76 @@
       "verbruik",
       "lekkage",
       "detectie"
+    ],
+    "da": [
+      "flume",
+      "vand",
+      "forbrug",
+      "lækage",
+      "detektion"
+    ],
+    "de": [
+      "flume",
+      "wasser",
+      "nutzung",
+      "leck",
+      "erkennung"
+    ],
+    "es": [
+      "flume",
+      "agua",
+      "uso",
+      "fuga",
+      "detección"
+    ],
+    "fr": [
+      "flume",
+      "eau",
+      "utilisation",
+      "fuite",
+      "détection"
+    ],
+    "it": [
+      "flume",
+      "acqua",
+      "utilizzo",
+      "perdita",
+      "rilevamento"
+    ],
+    "no": [
+      "flume",
+      "vann",
+      "forbruk",
+      "lekkasje",
+      "deteksjon"
+    ],
+    "sv": [
+      "flume",
+      "vatten",
+      "användning",
+      "läcka",
+      "detektering"
+    ],
+    "pl": [
+      "flume",
+      "woda",
+      "zużycie",
+      "wyciek",
+      "detekcja"
+    ],
+    "ru": [
+      "flume",
+      "вода",
+      "использование",
+      "утечка",
+      "обнаружение"
+    ],
+    "ko": [
+      "flume",
+      "물",
+      "사용량",
+      "누수",
+      "탐지"
     ]
   },
   "images": {

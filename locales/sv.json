@@ -1,0 +1,20 @@
+{
+  "authentication": {
+    "connecting": "Ansluter..."
+  },
+  "error": {
+    "400": "Enheten hittades inte i Flume-kontot",
+    "401": "Flume API-referenserna är felaktiga",
+    "403": "Flume API har nekat åtkomst till denna enhet",
+    "404": "Enheten hittades inte i Flume-kontot",
+    "50x": "Flume API är otillgänglig",
+    "invalid_client": "Dessa referenser är felaktiga",
+    "network": "Flume API är oåtkomlig",
+    "unknown": "Ett okänt fel har inträffat"
+  },
+  "pair": {
+    "password": "Lösenord",
+    "title": "Logga in med dina inloggningsuppgifter",
+    "username": "E-postadress"
+  }
+}

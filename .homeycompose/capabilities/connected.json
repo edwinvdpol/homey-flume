@@ -2,18 +2,48 @@
   "type": "boolean",
   "title": {
     "en": "Connected",
-    "nl": "Verbonden"
+    "nl": "Verbonden",
+    "da": "Tilsluttet",
+    "de": "Verbunden",
+    "es": "Conectado",
+    "fr": "Connecté",
+    "it": "Connesso",
+    "no": "Tilkoblet",
+    "sv": "Ansluten",
+    "pl": "Połączony",
+    "ru": "Подключено",
+    "ko": "연결됨"
   },
   "getable": true,
   "setable": false,
   "insights": true,
   "insightsTitleTrue": {
     "en": "Device online",
-    "nl": "Apparaat online"
+    "nl": "Apparaat online",
+    "da": "Enhed online",
+    "de": "Gerät online",
+    "es": "Dispositivo en línea",
+    "fr": "Appareil en ligne",
+    "it": "Dispositivo online",
+    "no": "Enhet på nett",
+    "sv": "Enhet online",
+    "pl": "Urządzenie online",
+    "ru": "Устройство в сети",
+    "ko": "장치 온라인"
   },
   "insightsTitleFalse": {
     "en": "Device offline",
-    "nl": "Apparaat offline"
+    "nl": "Apparaat offline",
+    "da": "Enhed offline",
+    "de": "Gerät offline",
+    "es": "Dispositivo fuera de línea",
+    "fr": "Appareil hors ligne",
+    "it": "Dispositivo offline",
+    "no": "Enhet frakoblet",
+    "sv": "Enhet offline",
+    "pl": "Urządzenie offline",
+    "ru": "Устройство не в сети",
+    "ko": "장치 오프라인"
   },
   "uiComponent": null
 }

@@ -1,0 +1,20 @@
+{
+  "authentication": {
+    "connecting": "Connexion en cours..."
+  },
+  "error": {
+    "400": "Appareil introuvable dans le compte Flume",
+    "401": "Les identifiants de l'API Flume sont incorrects",
+    "403": "L'accès à cet appareil a été refusé par l'API Flume",
+    "404": "Appareil introuvable dans le compte Flume",
+    "50x": "L'API Flume est indisponible",
+    "invalid_client": "Ces identifiants sont incorrects",
+    "network": "L'API Flume est injoignable",
+    "unknown": "Une erreur inconnue s'est produite"
+  },
+  "pair": {
+    "password": "Mot de passe",
+    "title": "Connectez-vous avec vos identifiants",
+    "username": "Adresse e-mail"
+  }
+}

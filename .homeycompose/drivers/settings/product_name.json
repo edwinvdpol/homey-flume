@@ -2,11 +2,31 @@
   "type": "label",
   "label": {
     "en": "Name",
-    "nl": "Naam"
+    "nl": "Naam",
+    "da": "Navn",
+    "de": "Name",
+    "es": "Nombre",
+    "fr": "Nom",
+    "it": "Nome",
+    "no": "Navn",
+    "sv": "Namn",
+    "pl": "Nazwa",
+    "ru": "Название",
+    "ko": "이름"
   },
   "value": "-",
   "hint": {
     "en": "The name of product.",
-    "nl": "De naam van het product."
+    "nl": "De naam van het product.",
+    "da": "Produktets navn.",
+    "de": "Der Name des Produkts.",
+    "es": "El nombre del producto.",
+    "fr": "Le nom du produit.",
+    "it": "Il nome del prodotto.",
+    "no": "Produktets navn.",
+    "sv": "Produktens namn.",
+    "pl": "Nazwa produktu.",
+    "ru": "Название продукта.",
+    "ko": "제품 이름."
   }
 }

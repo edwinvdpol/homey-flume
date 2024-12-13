@@ -2,7 +2,17 @@
   "type": "enum",
   "title": {
     "en": "Battery level",
-    "nl": "Batterijniveau"
+    "nl": "Batterijniveau",
+    "da": "Batteriniveau",
+    "de": "Batteriestand",
+    "es": "Nivel de batería",
+    "fr": "Niveau de batterie",
+    "it": "Livello della batteria",
+    "no": "Batterinivå",
+    "sv": "Batterinivå",
+    "pl": "Poziom baterii",
+    "ru": "Уровень заряда батареи",
+    "ko": "배터리 수준"
   },
   "getable": true,
   "setable": false,
@@ -11,28 +21,68 @@
       "id": "high",
       "title": {
         "en": "High",
-        "nl": "Hoog"
+        "nl": "Hoog",
+        "da": "Høj",
+        "de": "Hoch",
+        "es": "Alto",
+        "fr": "Haut",
+        "it": "Alto",
+        "no": "Høy",
+        "sv": "Hög",
+        "pl": "Wysoki",
+        "ru": "Высокий",
+        "ko": "높음"
       }
     },
     {
       "id": "medium",
       "title": {
         "en": "Normal",
-        "nl": "Normaal"
+        "nl": "Normaal",
+        "da": "Normal",
+        "de": "Normal",
+        "es": "Normal",
+        "fr": "Normal",
+        "it": "Normale",
+        "no": "Normal",
+        "sv": "Normal",
+        "pl": "Normalny",
+        "ru": "Нормальный",
+        "ko": "보통"
       }
     },
     {
       "id": "low",
       "title": {
         "en": "Low",
-        "nl": "Laag"
+        "nl": "Laag",
+        "da": "Lav",
+        "de": "Niedrig",
+        "es": "Bajo",
+        "fr": "Bas",
+        "it": "Basso",
+        "no": "Lav",
+        "sv": "Låg",
+        "pl": "Niski",
+        "ru": "Низкий",
+        "ko": "낮음"
       }
     },
     {
       "id": "unknown",
       "title": {
         "en": "Unknown",
-        "nl": "Onbekend"
+        "nl": "Onbekend",
+        "da": "Ukendt",
+        "de": "Unbekannt",
+        "es": "Desconocido",
+        "fr": "Inconnu",
+        "it": "Sconosciuto",
+        "no": "Ukjent",
+        "sv": "Okänd",
+        "pl": "Nieznany",
+        "ru": "Неизвестный",
+        "ko": "알 수 없음"
       }
     }
   ],

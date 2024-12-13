@@ -1,7 +1,17 @@
 {
   "title": {
     "en": "The leakage alarm is !{{on|off}}",
-    "nl": "De lekkagewaarschuwing is !{{aan|uit}}"
+    "nl": "De lekkagewaarschuwing is !{{aan|uit}}",
+    "da": "Lækningsalarmen er !{{til|fra}}",
+    "de": "Der Leckagealarm ist !{{ein|aus}}",
+    "es": "La alarma de fuga está !{{activada|desactivada}}",
+    "fr": "L'alarme de fuite est !{{activée|désactivée}}",
+    "it": "L'allarme di perdita è !{{attivato|disattivato}}",
+    "no": "Lekkasjealarmen er !{{på|av}}",
+    "sv": "Läckagelarmet är !{{på|av}}",
+    "pl": "Alarm wycieku jest !{{włączony|wyłączony}}",
+    "ru": "Сигнализация утечки !{{включена|выключена}}",
+    "ko": "누수 경보가 !{{켜짐|꺼짐}}"
   },
   "platforms": [
     "local"

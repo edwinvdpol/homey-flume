@@ -1,7 +1,17 @@
 {
   "title": {
     "en": "The device came online",
-    "nl": "Het apparaat kwam online"
+    "nl": "Het apparaat kwam online",
+    "da": "Enheden kom online",
+    "de": "Das Gerät ist online gegangen",
+    "es": "El dispositivo se conectó",
+    "fr": "L'appareil s'est connecté",
+    "it": "Il dispositivo è online",
+    "no": "Enheten ble koblet til",
+    "sv": "Enheten kom online",
+    "pl": "Urządzenie połączyło się z siecią",
+    "ru": "Устройство вышло в сеть",
+    "ko": "디바이스가 온라인 상태가 되었습니다"
   },
   "platforms": [
     "local"

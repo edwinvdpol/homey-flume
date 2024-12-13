@@ -1,6 +1,17 @@
 {
   "name": {
-    "en": "Sensor"
+    "en": "Sensor",
+    "nl": "Sensor",
+    "da": "Sensor",
+    "de": "Sensor",
+    "es": "Sensor",
+    "fr": "Capteur",
+    "it": "Sensore",
+    "no": "Sensor",
+    "sv": "Sensor",
+    "pl": "Czujnik",
+    "ru": "Датчик",
+    "ko": "센서"
   },
   "capabilities": [
     "measure_water",

@@ -1,7 +1,17 @@
 {
   "title": {
     "en": "The usage alarm is !{{on|off}}",
-    "nl": "De verbruikwaarschuwing is !{{aan|uit}}"
+    "nl": "De verbruikwaarschuwing is !{{aan|uit}}",
+    "da": "Brugsalarmen er !{{til|fra}}",
+    "de": "Der Nutzungsalarm ist !{{ein|aus}}",
+    "es": "La alarma de uso está !{{activada|desactivada}}",
+    "fr": "L'alarme d'utilisation est !{{activée|désactivée}}",
+    "it": "L'allarme di utilizzo è !{{attivato|disattivato}}",
+    "no": "Bruksalarmen er !{{på|av}}",
+    "sv": "Användningslarmet är !{{på|av}}",
+    "pl": "Alarm użycia jest !{{włączony|wyłączony}}",
+    "ru": "Сигнализация использования !{{включена|выключена}}",
+    "ko": "사용 알람은 !{{켜짐|꺼짐}}"
   },
   "platforms": [
     "local"

@@ -1,11 +1,31 @@
 {
   "title": {
     "en": "The battery level !{{is|is not}}",
-    "nl": "Het batterijniveau !{{is|is niet}}"
+    "nl": "Het batterijniveau !{{is|is niet}}",
+    "da": "Batteriniveauet !{{er|er ikke}}",
+    "de": "Der Batteriestand !{{ist|ist nicht}}",
+    "es": "El nivel de batería !{{es|no es}}",
+    "fr": "Le niveau de la batterie !{{est|n'est pas}}",
+    "it": "Il livello della batteria !{{è|non è}}",
+    "no": "Batterinivået !{{er|er ikke}}",
+    "sv": "Batterinivån !{{är|är inte}}",
+    "pl": "Poziom baterii !{{jest|nie jest}}",
+    "ru": "Уровень заряда батареи !{{есть|не есть}}",
+    "ko": "배터리 수준이 !{{입니다|아닙니다}}"
   },
   "titleFormatted": {
     "en": "The battery level !{{is|is not}} [[battery_level]]",
-    "nl": "Het batterijniveau !{{is|is niet}} [[battery_level]]"
+    "nl": "Het batterijniveau !{{is|is niet}} [[battery_level]]",
+    "da": "Batteriniveauet !{{er|er ikke}} [[battery_level]]",
+    "de": "Der Batteriestand !{{ist|ist nicht}} [[battery_level]]",
+    "es": "El nivel de batería !{{es|no es}} [[battery_level]]",
+    "fr": "Le niveau de la batterie !{{est|n'est pas}} [[battery_level]]",
+    "it": "Il livello della batteria !{{è|non è}} [[battery_level]]",
+    "no": "Batterinivået !{{er|er ikke}} [[battery_level]]",
+    "sv": "Batterinivån !{{är|är inte}} [[battery_level]]",
+    "pl": "Poziom baterii !{{jest|nie jest}} [[battery_level]]",
+    "ru": "Уровень заряда батареи !{{есть|не есть}} [[battery_level]]",
+    "ko": "배터리 수준이 !{{입니다|아닙니다}} [[battery_level]]"
   },
   "platforms": [
     "local"
@@ -16,35 +36,85 @@
       "name": "battery_level",
       "title": {
         "en": "level",
-        "nl": "niveau"
+        "nl": "niveau",
+        "da": "niveau",
+        "de": "Niveau",
+        "es": "nivel",
+        "fr": "niveau",
+        "it": "livello",
+        "no": "nivå",
+        "sv": "nivå",
+        "pl": "poziom",
+        "ru": "уровень",
+        "ko": "수준"
       },
       "values": [
         {
           "id": "high",
           "title": {
             "en": "High",
-            "nl": "Hoog"
+            "nl": "Hoog",
+            "da": "Høj",
+            "de": "Hoch",
+            "es": "Alto",
+            "fr": "Élevé",
+            "it": "Alto",
+            "no": "Høy",
+            "sv": "Hög",
+            "pl": "Wysoki",
+            "ru": "Высокий",
+            "ko": "높음"
           }
         },
         {
           "id": "medium",
           "title": {
             "en": "Normal",
-            "nl": "Normaal"
+            "nl": "Normaal",
+            "da": "Normal",
+            "de": "Normal",
+            "es": "Normal",
+            "fr": "Normal",
+            "it": "Normale",
+            "no": "Normal",
+            "sv": "Normal",
+            "pl": "Normalny",
+            "ru": "Нормальный",
+            "ko": "보통"
           }
         },
         {
           "id": "low",
           "title": {
             "en": "Low",
-            "nl": "Laag"
+            "nl": "Laag",
+            "da": "Lav",
+            "de": "Niedrig",
+            "es": "Bajo",
+            "fr": "Faible",
+            "it": "Basso",
+            "no": "Lav",
+            "sv": "Låg",
+            "pl": "Niski",
+            "ru": "Низкий",
+            "ko": "낮음"
           }
         },
         {
           "id": "unknown",
           "title": {
             "en": "Unknown",
-            "nl": "Onbekend"
+            "nl": "Onbekend",
+            "da": "Ukendt",
+            "de": "Unbekannt",
+            "es": "Desconocido",
+            "fr": "Inconnu",
+            "it": "Sconosciuto",
+            "no": "Ukjent",
+            "sv": "Okänd",
+            "pl": "Nieznany",
+            "ru": "Неизвестно",
+            "ko": "알 수 없음"
           }
         }
       ]

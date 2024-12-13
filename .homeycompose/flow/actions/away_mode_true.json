@@ -1,11 +1,31 @@
 {
   "title": {
     "en": "Turn on Away Mode",
-    "nl": "Weg modus inschakelen"
+    "nl": "Weg modus inschakelen",
+    "da": "Tænd for Away-tilstand",
+    "de": "Abwesenheitsmodus einschalten",
+    "es": "Activar el modo ausente",
+    "fr": "Activer le mode absent",
+    "it": "Attiva la modalità Assente",
+    "no": "Slå på bortemodus",
+    "sv": "Aktivera bortläge",
+    "pl": "Włącz tryb nieobecności",
+    "ru": "Включить режим отсутствия",
+    "ko": "외출 모드 켜기"
   },
   "hint": {
     "en": "Use this flowcard to turn on Away Mode.",
-    "nl": "Gebruik deze kaart om weg modus in te schakelen."
+    "nl": "Gebruik deze kaart om weg modus in te schakelen.",
+    "da": "Brug dette flowkort til at tænde for Away-tilstand.",
+    "de": "Verwende diese Flowkarte, um den Abwesenheitsmodus einzuschalten.",
+    "es": "Utiliza esta tarjeta de flujo para activar el modo ausente.",
+    "fr": "Utilisez cette carte de flux pour activer le mode absent.",
+    "it": "Usa questa scheda flusso per attivare la modalità Assente.",
+    "no": "Bruk dette flytkortet for å slå på bortemodus.",
+    "sv": "Använd detta flödeskort för att aktivera bortläge.",
+    "pl": "Użyj tej karty przepływu, aby włączyć tryb nieobecności.",
+    "ru": "Используйте эту карточку потока, чтобы включить режим отсутствия.",
+    "ko": "이 플로우 카드를 사용하여 외출 모드를 켜세요."
   },
   "platforms": [
     "local"

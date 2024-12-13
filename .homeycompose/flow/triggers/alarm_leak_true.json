@@ -1,7 +1,17 @@
 {
   "title": {
     "en": "The leakage alarm turned on",
-    "nl": "De lekkagewaarschuwing gaat aan"
+    "nl": "De lekkagewaarschuwing gaat aan",
+    "da": "Lækagealarmen blev tændt",
+    "de": "Der Leckagealarm wurde eingeschaltet",
+    "es": "La alarma de fuga se activó",
+    "fr": "L'alarme de fuite s'est déclenchée",
+    "it": "L'allarme di perdita si è attivato",
+    "no": "Lekkasjealarmen ble slått på",
+    "sv": "Läckagelarmet aktiverades",
+    "pl": "Alarm przecieku został włączony",
+    "ru": "Сработала сигнализация протечки",
+    "ko": "누수 경보가 켜졌습니다"
   },
   "highlight": true,
   "platforms": [

@@ -1,7 +1,17 @@
 {
   "title": {
     "en": "The device is !{{on|off}}line",
-    "nl": "Het apparaat is !{{on|off}}line"
+    "nl": "Het apparaat is !{{on|off}}line",
+    "da": "Enheden er !{{på|fra}}line",
+    "de": "Das Gerät ist !{{online|offline}}",
+    "es": "El dispositivo está !{{en|fuera de}} línea",
+    "fr": "L'appareil est !{{en|hors}} ligne",
+    "it": "Il dispositivo è !{{online|offline}}",
+    "no": "Enheten er !{{på|av}}linje",
+    "sv": "Enheten är !{{online|offline}}",
+    "pl": "Urządzenie jest !{{online|offline}}",
+    "ru": "Устройство !{{в|не в}} сети",
+    "ko": "장치가 !{{온라인|오프라인}}입니다"
   },
   "platforms": [
     "local"

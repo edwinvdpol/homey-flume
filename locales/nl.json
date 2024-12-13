@@ -13,7 +13,8 @@
     "unknown": "Er is een onbekende fout opgetreden"
   },
   "pair": {
-    "saving": "Opslaan",
+    "password": "Wachtwoord",
+    "title": "Log in met je gegevens",
     "username": "E-mailadres"
   }
 }

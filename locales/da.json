@@ -1,0 +1,20 @@
+{
+  "authentication": {
+    "connecting": "Forbinder..."
+  },
+  "error": {
+    "400": "Enhed ikke fundet i Flume-konto",
+    "401": "Flume API-legitimationsoplysninger er forkerte",
+    "403": "Flume API har nægtet adgang til denne enhed",
+    "404": "Enhed ikke fundet i Flume-konto",
+    "50x": "Flume API er utilgængelig",
+    "invalid_client": "Disse legitimationsoplysninger er forkerte",
+    "network": "Flume API kan ikke nås",
+    "unknown": "En ukendt fejl er opstået"
+  },
+  "pair": {
+    "password": "Adgangskode",
+    "title": "Log ind med dine legitimationsoplysninger",
+    "username": "E-mailadresse"
+  }
+}

@@ -1,7 +1,17 @@
 {
   "title": {
     "en": "The device went offline",
-    "nl": "Het apparaat ging offline"
+    "nl": "Het apparaat ging offline",
+    "da": "Enheden gik offline",
+    "de": "Das Gerät ging offline",
+    "es": "El dispositivo se desconectó",
+    "fr": "L'appareil est passé hors ligne",
+    "it": "Il dispositivo è andato offline",
+    "no": "Enheten gikk offline",
+    "sv": "Enheten gick offline",
+    "pl": "Urządzenie się rozłączyło",
+    "ru": "Устройство отключилось",
+    "ko": "기기가 오프라인 상태가 되었습니다"
   },
   "platforms": [
     "local"

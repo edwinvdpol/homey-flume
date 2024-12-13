@@ -2,18 +2,48 @@
   "type": "boolean",
   "title": {
     "en": "Usage alarm",
-    "nl": "Verbruik alarm"
+    "nl": "Verbruik alarm",
+    "da": "Brugsalarm",
+    "de": "Nutzungsalarm",
+    "es": "Alarma de uso",
+    "fr": "Alarme d'utilisation",
+    "it": "Allarme di utilizzo",
+    "no": "Bruksalarm",
+    "sv": "Användningslarm",
+    "pl": "Alarm zużycia",
+    "ru": "Сигнализация использования",
+    "ko": "사용 경고"
   },
   "getable": true,
   "setable": false,
   "insights": true,
   "insightsTitleTrue": {
     "en": "Usage alarm turned on",
-    "nl": "Verbruikalarm ging af"
+    "nl": "Verbruikalarm ging af",
+    "da": "Brugsalarm aktiveret",
+    "de": "Nutzungsalarm eingeschaltet",
+    "es": "Alarma de uso activada",
+    "fr": "L'alarme d'utilisation est activée",
+    "it": "Allarme di utilizzo attivato",
+    "no": "Bruksalarm aktivert",
+    "sv": "Användningslarm aktiverat",
+    "pl": "Alarm zużycia włączony",
+    "ru": "Сигнализация использования включена",
+    "ko": "사용 경고 켜짐"
   },
   "insightsTitleFalse": {
     "en": "Usage alarm turned off",
-    "nl": "Verbruikalarm ging uit"
+    "nl": "Verbruikalarm ging uit",
+    "da": "Brugsalarm slukket",
+    "de": "Nutzungsalarm ausgeschaltet",
+    "es": "Alarma de uso desactivada",
+    "fr": "L'alarme d'utilisation est désactivée",
+    "it": "Allarme di utilizzo disattivato",
+    "no": "Bruksalarm deaktivert",
+    "sv": "Användningslarm avstängt",
+    "pl": "Alarm zużycia wyłączony",
+    "ru": "Сигнализация использования выключена",
+    "ko": "사용 경고 꺼짐"
   },
   "uiComponent": "sensor",
   "icon": "/assets/capabilities/alarm_usage.svg"

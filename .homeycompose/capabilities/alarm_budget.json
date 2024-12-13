@@ -2,18 +2,48 @@
   "type": "boolean",
   "title": {
     "en": "Budget alarm",
-    "nl": "Begroting alarm"
+    "nl": "Begroting alarm",
+    "da": "Budget alarm",
+    "de": "Budgetalarm",
+    "es": "Alarma de presupuesto",
+    "fr": "Alarme budgétaire",
+    "it": "Allarme budget",
+    "no": "Budsjettalarm",
+    "sv": "Budgetlarm",
+    "pl": "Alarm budżetowy",
+    "ru": "Бюджетный сигнал тревоги",
+    "ko": "예산 경보"
   },
   "getable": true,
   "setable": false,
   "insights": true,
   "insightsTitleTrue": {
     "en": "Budget alarm turned on",
-    "nl": "Begrotingalarm ging af"
+    "nl": "Begrotingalarm ging af",
+    "da": "Budgetalarm slået til",
+    "de": "Budgetalarm eingeschaltet",
+    "es": "Alarma de presupuesto activada",
+    "fr": "Alarme budgétaire activée",
+    "it": "Allarme budget attivato",
+    "no": "Budsjettalarm slått på",
+    "sv": "Budgetlarm aktiverat",
+    "pl": "Alarm budżetowy włączony",
+    "ru": "Бюджетный сигнал включен",
+    "ko": "예산 경보가 켜짐"
   },
   "insightsTitleFalse": {
     "en": "Budget alarm turned off",
-    "nl": "Begrotingalarm ging uit"
+    "nl": "Begrotingalarm ging uit",
+    "da": "Budgetalarm slået fra",
+    "de": "Budgetalarm ausgeschaltet",
+    "es": "Alarma de presupuesto desactivada",
+    "fr": "Alarme budgétaire désactivée",
+    "it": "Allarme budget disattivato",
+    "no": "Budsjettalarm slått av",
+    "sv": "Budgetlarm avstängt",
+    "pl": "Alarm budżetowy wyłączony",
+    "ru": "Бюджетный сигнал выключен",
+    "ko": "예산 경보가 꺼짐"
   },
   "uiComponent": "sensor",
   "icon": "/assets/capabilities/alarm_budget.svg"

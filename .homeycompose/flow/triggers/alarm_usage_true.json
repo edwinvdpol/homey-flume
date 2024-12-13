@@ -1,7 +1,17 @@
 {
   "title": {
     "en": "The usage alarm turned on",
-    "nl": "De verbruikwaarschuwing gaat aan"
+    "nl": "De verbruikwaarschuwing gaat aan",
+    "da": "Brugsalarmen er tændt",
+    "de": "Der Nutzungsalarm wurde aktiviert",
+    "es": "La alarma de uso se activó",
+    "fr": "L'alarme d'utilisation est activée",
+    "it": "L'allarme di utilizzo è attivato",
+    "no": "Bruksalarmen er slått på",
+    "sv": "Användningslarmet har aktiverats",
+    "pl": "Alarm użytkowania został włączony",
+    "ru": "Сработала тревога использования",
+    "ko": "사용 경고가 켜졌습니다"
   },
   "highlight": true,
   "platforms": [

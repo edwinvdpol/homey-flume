@@ -13,7 +13,8 @@
     "unknown": "An unknown error has occurred"
   },
   "pair": {
-    "saving": "Saving",
+    "password": "Password",
+    "title": "Log in with your credentials",
     "username": "Email Address"
   }
 }

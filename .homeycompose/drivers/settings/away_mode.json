@@ -2,11 +2,31 @@
   "type": "checkbox",
   "label": {
     "en": "Away Mode",
-    "nl": "Weg modus"
+    "nl": "Weg modus",
+    "da": "Udemode",
+    "de": "Abwesenheitsmodus",
+    "es": "Modo Fuera",
+    "fr": "Mode Absent",
+    "it": "Modalità Assente",
+    "no": "Bortemodus",
+    "sv": "Bortläge",
+    "pl": "Tryb Nieobecny",
+    "ru": "Режим Отсутствия",
+    "ko": "외출 모드"
   },
   "value": false,
   "hint": {
     "en": "Away Mode is turned on.",
-    "nl": "Weg modus is ingeschakeld."
+    "nl": "Weg modus is ingeschakeld.",
+    "da": "Udemode er aktiveret.",
+    "de": "Abwesenheitsmodus ist aktiviert.",
+    "es": "El Modo Fuera está activado.",
+    "fr": "Le mode Absent est activé.",
+    "it": "La Modalità Assente è attivata.",
+    "no": "Bortemodus er på.",
+    "sv": "Bortläge är aktiverat.",
+    "pl": "Tryb Nieobecny jest włączony.",
+    "ru": "Режим Отсутствия включён.",
+    "ko": "외출 모드가 켜져 있습니다."
   }
 }

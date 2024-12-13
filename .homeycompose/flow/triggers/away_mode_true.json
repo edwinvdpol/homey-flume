@@ -1,7 +1,17 @@
 {
   "title": {
     "en": "Away Mode was turned on",
-    "nl": "Weg modus werd ingeschakeld"
+    "nl": "Weg modus werd ingeschakeld",
+    "da": "Ude-tilstand blev aktiveret",
+    "de": "Abwesenheitsmodus wurde eingeschaltet",
+    "es": "El modo ausente se activó",
+    "fr": "Le mode absent a été activé",
+    "it": "La modalità assente è stata attivata",
+    "no": "Bortemodus ble slått på",
+    "sv": "Bortamodus var aktiverat",
+    "pl": "Tryb wyjazdu został włączony",
+    "ru": "Режим отсутствия был включен",
+    "ko": "외출 모드가 켜졌습니다"
   },
   "platforms": [
     "local"

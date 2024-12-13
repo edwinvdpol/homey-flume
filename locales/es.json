@@ -1,0 +1,20 @@
+{
+  "authentication": {
+    "connecting": "Conectando..."
+  },
+  "error": {
+    "400": "Dispositivo no encontrado en la cuenta de Flume",
+    "401": "Las credenciales de la API de Flume son incorrectas",
+    "403": "La API de Flume ha negado el acceso a este dispositivo",
+    "404": "Dispositivo no encontrado en la cuenta de Flume",
+    "50x": "La API de Flume no está disponible",
+    "invalid_client": "Estas credenciales son incorrectas",
+    "network": "La API de Flume no es accesible",
+    "unknown": "Ha ocurrido un error desconocido"
+  },
+  "pair": {
+    "password": "Contraseña",
+    "title": "Inicia sesión con tus credenciales",
+    "username": "Correo Electrónico"
+  }
+}

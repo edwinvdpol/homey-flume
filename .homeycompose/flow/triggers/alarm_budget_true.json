@@ -1,7 +1,17 @@
 {
   "title": {
     "en": "The budget alarm turned on",
-    "nl": "De begrotingwaarschuwing gaat aan"
+    "nl": "De begrotingwaarschuwing gaat aan",
+    "da": "Budgetalarmen er tændt",
+    "de": "Der Budgetalarm ist eingeschaltet",
+    "es": "La alarma de presupuesto se activó",
+    "fr": "L'alarme de budget s'est activée",
+    "it": "L'allarme di budget è attivato",
+    "no": "Budsjettalarmen er slått på",
+    "sv": "Budgetlarmet har aktiverats",
+    "pl": "Alarm budżetu został włączony",
+    "ru": "Бюджетная сигнализация включена",
+    "ko": "예산 경보가 켜졌습니다"
   },
   "platforms": [
     "local"

@@ -2,18 +2,48 @@
   "type": "boolean",
   "title": {
     "en": "Away mode",
-    "nl": "Weg modus"
+    "nl": "Weg modus",
+    "da": "Væk-tilstand",
+    "de": "Abwesenheitsmodus",
+    "es": "Modo ausente",
+    "fr": "Mode absent",
+    "it": "Modalità assente",
+    "no": "Bortemodus",
+    "sv": "Bortamodus",
+    "pl": "Tryb nieobecności",
+    "ru": "Режим отсутствия",
+    "ko": "부재 모드"
   },
   "getable": true,
   "setable": false,
   "insights": true,
   "insightsTitleTrue": {
     "en": "Away mode turned on",
-    "nl": "Weg modus ingeschakeld"
+    "nl": "Weg modus ingeschakeld",
+    "da": "Væk-tilstand aktiveret",
+    "de": "Abwesenheitsmodus eingeschaltet",
+    "es": "Modo ausente activado",
+    "fr": "Mode absent activé",
+    "it": "Modalità assente attivata",
+    "no": "Bortemodus aktivert",
+    "sv": "Bortamodus aktiverat",
+    "pl": "Tryb nieobecności włączony",
+    "ru": "Режим отсутствия включен",
+    "ko": "부재 모드가 켜짐"
   },
   "insightsTitleFalse": {
     "en": "Away mode turned off",
-    "nl": "Weg modus uitgeschakeld"
+    "nl": "Weg modus uitgeschakeld",
+    "da": "Væk-tilstand deaktiveret",
+    "de": "Abwesenheitsmodus ausgeschaltet",
+    "es": "Modo ausente desactivado",
+    "fr": "Mode absent désactivé",
+    "it": "Modalità assente disattivata",
+    "no": "Bortemodus deaktivert",
+    "sv": "Bortamodus avstängt",
+    "pl": "Tryb nieobecności wyłączony",
+    "ru": "Режим отсутствия выключен",
+    "ko": "부재 모드가 꺼짐"
   },
   "uiComponent": null
 }

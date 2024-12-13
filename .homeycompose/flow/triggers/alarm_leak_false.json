@@ -1,7 +1,17 @@
 {
   "title": {
     "en": "The leakage alarm turned off",
-    "nl": "De lekkagewaarschuwing gaat uit"
+    "nl": "De lekkagewaarschuwing gaat uit",
+    "da": "Lækagealarmen blev slukket",
+    "de": "Der Leckagealarm wurde ausgeschaltet",
+    "es": "La alarma de fugas se apagó",
+    "fr": "L'alarme de fuite s'est éteinte",
+    "it": "L'allarme delle perdite si è spento",
+    "no": "Lekkasjealarmen ble slått av",
+    "sv": "Läckagelarmet stängdes av",
+    "pl": "Alarm wycieku został wyłączony",
+    "ru": "Сигнализация протечки была отключена",
+    "ko": "누수 경보가 꺼졌습니다"
   },
   "platforms": [
     "local"

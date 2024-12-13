@@ -9,10 +9,32 @@
   "sdk": 3,
   "brandColor": "#497969",
   "name": {
-    "en": "Flume"
+    "en": "Flume",
+    "nl": "Flume",
+    "da": "Flume",
+    "de": "Flume",
+    "es": "Flume",
+    "fr": "Flume",
+    "it": "Flume",
+    "no": "Flume",
+    "sv": "Flume",
+    "pl": "Flume",
+    "ru": "Flume",
+    "ko": "Flume"
   },
   "description": {
-    "en": "A smarter way to track and reduce your water use."
+    "en": "A smarter way to track and reduce your water use.",
+    "nl": "Een slimme manier om je watergebruik bij te houden en te verminderen.",
+    "da": "En smartere måde at spore og reducere dit vandforbrug.",
+    "de": "Eine intelligentere Art, Ihren Wasserverbrauch zu verfolgen und zu reduzieren.",
+    "es": "Una forma más inteligente de rastrear y reducir tu uso de agua.",
+    "fr": "Une façon plus intelligente de suivre et de réduire votre consommation d'eau.",
+    "it": "Un modo più intelligente per monitorare et ridurre il tuo consumo d'acqua.",
+    "no": "En smartere måte å spore og redusere vannforbruket ditt.",
+    "sv": "Ett smartare sätt att spåra och minska din vattenanvändning.",
+    "pl": "Inteligentniejszy sposób na śledzenie i redukcję zużycia wody.",
+    "ru": "Более умный способ отслеживать и сокращать потребление воды.",
+    "ko": "물 사용량을 추적하고 줄이는 더 스마트한 방법입니다."
   },
   "category": [
     "appliances"
@@ -31,6 +53,76 @@
       "verbruik",
       "lekkage",
       "detectie"
+    ],
+    "da": [
+      "flume",
+      "vand",
+      "forbrug",
+      "lækage",
+      "detektion"
+    ],
+    "de": [
+      "flume",
+      "wasser",
+      "nutzung",
+      "leck",
+      "erkennung"
+    ],
+    "es": [
+      "flume",
+      "agua",
+      "uso",
+      "fuga",
+      "detección"
+    ],
+    "fr": [
+      "flume",
+      "eau",
+      "utilisation",
+      "fuite",
+      "détection"
+    ],
+    "it": [
+      "flume",
+      "acqua",
+      "utilizzo",
+      "perdita",
+      "rilevamento"
+    ],
+    "no": [
+      "flume",
+      "vann",
+      "forbruk",
+      "lekkasje",
+      "deteksjon"
+    ],
+    "sv": [
+      "flume",
+      "vatten",
+      "användning",
+      "läcka",
+      "detektering"
+    ],
+    "pl": [
+      "flume",
+      "woda",
+      "zużycie",
+      "wyciek",
+      "detekcja"
+    ],
+    "ru": [
+      "flume",
+      "вода",
+      "использование",
+      "утечка",
+      "обнаружение"
+    ],
+    "ko": [
+      "flume",
+      "물",
+      "사용량",
+      "누수",
+      "탐지"
     ]
   },
   "images": {
@@ -69,7 +161,17 @@
       {
         "title": {
           "en": "The budget alarm turned off",
-          "nl": "De begrotingwaarschuwing gaat uit"
+          "nl": "De begrotingwaarschuwing gaat uit",
+          "da": "Budgetalarmen er slukket",
+          "de": "Der Budgetalarm ist ausgeschaltet",
+          "es": "La alarma de presupuesto se apagó",
+          "fr": "L'alarme budgétaire est désactivée",
+          "it": "L'allarme del budget è stato disattivato",
+          "no": "Budsjettalarmen er slått av",
+          "sv": "Budgetlarmet är avstängt",
+          "pl": "Alarm budżetowy został wyłączony",
+          "ru": "Бюджетная сигнализация отключена",
+          "ko": "예산 알람이 꺼졌습니다"
         },
         "platforms": [
           "local"
@@ -86,7 +188,17 @@
       {
         "title": {
           "en": "The budget alarm turned on",
-          "nl": "De begrotingwaarschuwing gaat aan"
+          "nl": "De begrotingwaarschuwing gaat aan",
+          "da": "Budgetalarmen er tændt",
+          "de": "Der Budgetalarm ist eingeschaltet",
+          "es": "La alarma de presupuesto se activó",
+          "fr": "L'alarme de budget s'est activée",
+          "it": "L'allarme di budget è attivato",
+          "no": "Budsjettalarmen er slått på",
+          "sv": "Budgetlarmet har aktiverats",
+          "pl": "Alarm budżetu został włączony",
+          "ru": "Бюджетная сигнализация включена",
+          "ko": "예산 경보가 켜졌습니다"
         },
         "platforms": [
           "local"
@@ -103,7 +215,17 @@
       {
         "title": {
           "en": "The leakage alarm turned off",
-          "nl": "De lekkagewaarschuwing gaat uit"
+          "nl": "De lekkagewaarschuwing gaat uit",
+          "da": "Lækagealarmen blev slukket",
+          "de": "Der Leckagealarm wurde ausgeschaltet",
+          "es": "La alarma de fugas se apagó",
+          "fr": "L'alarme de fuite s'est éteinte",
+          "it": "L'allarme delle perdite si è spento",
+          "no": "Lekkasjealarmen ble slått av",
+          "sv": "Läckagelarmet stängdes av",
+          "pl": "Alarm wycieku został wyłączony",
+          "ru": "Сигнализация протечки была отключена",
+          "ko": "누수 경보가 꺼졌습니다"
         },
         "platforms": [
           "local"
@@ -120,7 +242,17 @@
       {
         "title": {
           "en": "The leakage alarm turned on",
-          "nl": "De lekkagewaarschuwing gaat aan"
+          "nl": "De lekkagewaarschuwing gaat aan",
+          "da": "Lækagealarmen blev tændt",
+          "de": "Der Leckagealarm wurde eingeschaltet",
+          "es": "La alarma de fuga se activó",
+          "fr": "L'alarme de fuite s'est déclenchée",
+          "it": "L'allarme di perdita si è attivato",
+          "no": "Lekkasjealarmen ble slått på",
+          "sv": "Läckagelarmet aktiverades",
+          "pl": "Alarm przecieku został włączony",
+          "ru": "Сработала сигнализация протечки",
+          "ko": "누수 경보가 켜졌습니다"
         },
         "highlight": true,
         "platforms": [
@@ -138,7 +270,17 @@
       {
         "title": {
           "en": "The usage alarm turned off",
-          "nl": "De verbruikwaarschuwing gaat uit"
+          "nl": "De verbruikwaarschuwing gaat uit",
+          "da": "Brugsalarmen er slukket",
+          "de": "Der Nutzungsalarm wurde ausgeschaltet",
+          "es": "La alarma de uso se apagó",
+          "fr": "L'alarme d'utilisation est désactivée",
+          "it": "L'allarme di utilizzo si è spento",
+          "no": "Bruksalarmen er slått av",
+          "sv": "Användningslarmet är avstängt",
+          "pl": "Alarm zużycia został wyłączony",
+          "ru": "Сигнализация использования отключена",
+          "ko": "사용 알람이 꺼졌습니다"
         },
         "platforms": [
           "local"
@@ -155,7 +297,17 @@
       {
         "title": {
           "en": "The usage alarm turned on",
-          "nl": "De verbruikwaarschuwing gaat aan"
+          "nl": "De verbruikwaarschuwing gaat aan",
+          "da": "Brugsalarmen er tændt",
+          "de": "Der Nutzungsalarm wurde aktiviert",
+          "es": "La alarma de uso se activó",
+          "fr": "L'alarme d'utilisation est activée",
+          "it": "L'allarme di utilizzo è attivato",
+          "no": "Bruksalarmen er slått på",
+          "sv": "Användningslarmet har aktiverats",
+          "pl": "Alarm użytkowania został włączony",
+          "ru": "Сработала тревога использования",
+          "ko": "사용 경고가 켜졌습니다"
         },
         "highlight": true,
         "platforms": [
@@ -173,7 +325,17 @@
       {
         "title": {
           "en": "Away Mode was turned off",
-          "nl": "Weg modus werd uitgeschakeld"
+          "nl": "Weg modus werd uitgeschakeld",
+          "da": "Tilstand væk blev slukket",
+          "de": "Abwesenheitsmodus wurde ausgeschaltet",
+          "es": "Modo Ausente fue desactivado",
+          "fr": "Le mode Absent a été désactivé",
+          "it": "La Modalità Assente è stata disattivata",
+          "no": "Bortemodus ble slått av",
+          "sv": "Bortläge stängdes av",
+          "pl": "Tryb Nieobecności został wyłączony",
+          "ru": "Режим отсутствия был отключен",
+          "ko": "부재 모드가 꺼졌습니다"
         },
         "platforms": [
           "local"
@@ -190,7 +352,17 @@
       {
         "title": {
           "en": "Away Mode was turned on",
-          "nl": "Weg modus werd ingeschakeld"
+          "nl": "Weg modus werd ingeschakeld",
+          "da": "Ude-tilstand blev aktiveret",
+          "de": "Abwesenheitsmodus wurde eingeschaltet",
+          "es": "El modo ausente se activó",
+          "fr": "Le mode absent a été activé",
+          "it": "La modalità assente è stata attivata",
+          "no": "Bortemodus ble slått på",
+          "sv": "Bortamodus var aktiverat",
+          "pl": "Tryb wyjazdu został włączony",
+          "ru": "Режим отсутствия был включен",
+          "ko": "외출 모드가 켜졌습니다"
         },
         "platforms": [
           "local"
@@ -207,11 +379,31 @@
       {
         "title": {
           "en": "Battery level changed",
-          "nl": "Batterijniveau is veranderd"
+          "nl": "Batterijniveau is veranderd",
+          "da": "Batteriniveau ændret",
+          "de": "Batteriestand geändert",
+          "es": "Nivel de batería cambiado",
+          "fr": "Niveau de batterie changé",
+          "it": "Livello della batteria cambiato",
+          "no": "Batterinivå endret",
+          "sv": "Batterinivå ändrat",
+          "pl": "Poziom baterii zmieniony",
+          "ru": "Уровень заряда батареи изменен",
+          "ko": "배터리 수준 변경됨"
         },
         "titleFormatted": {
           "en": "Battery level has changed to [[battery_level]]",
-          "nl": "Batterijniveau is veranderd naar [[battery_level]]"
+          "nl": "Batterijniveau is veranderd naar [[battery_level]]",
+          "da": "Batteriniveauet er ændret til [[battery_level]]",
+          "de": "Der Batteriestand hat sich auf [[battery_level]] geändert",
+          "es": "El nivel de batería ha cambiado a [[battery_level]]",
+          "fr": "Le niveau de batterie a changé pour [[battery_level]]",
+          "it": "Il livello della batteria è cambiato a [[battery_level]]",
+          "no": "Batterinivået har endret seg til [[battery_level]]",
+          "sv": "Batterinivån har ändrats till [[battery_level]]",
+          "pl": "Poziom baterii zmienił się na [[battery_level]]",
+          "ru": "Уровень батареи изменился на [[battery_level]]",
+          "ko": "배터리 수준이 [[battery_level]]으로 변경되었습니다"
         },
         "platforms": [
           "local"
@@ -222,35 +414,85 @@
             "name": "battery_level",
             "title": {
               "en": "level",
-              "nl": "niveau"
+              "nl": "niveau",
+              "da": "niveau",
+              "de": "Stufe",
+              "es": "nivel",
+              "fr": "niveau",
+              "it": "livello",
+              "no": "nivå",
+              "sv": "nivå",
+              "pl": "poziom",
+              "ru": "уровень",
+              "ko": "수준"
             },
             "values": [
               {
                 "id": "high",
                 "title": {
                   "en": "High",
-                  "nl": "Hoog"
+                  "nl": "Hoog",
+                  "da": "Høj",
+                  "de": "Hoch",
+                  "es": "Alto",
+                  "fr": "Élevé",
+                  "it": "Alto",
+                  "no": "Høy",
+                  "sv": "Hög",
+                  "pl": "Wysoki",
+                  "ru": "Высокий",
+                  "ko": "높음"
                 }
               },
               {
                 "id": "medium",
                 "title": {
                   "en": "Normal",
-                  "nl": "Normaal"
+                  "nl": "Normaal",
+                  "da": "Normal",
+                  "de": "Normal",
+                  "es": "Normal",
+                  "fr": "Normal",
+                  "it": "Normale",
+                  "no": "Normal",
+                  "sv": "Normal",
+                  "pl": "Normalny",
+                  "ru": "Нормальный",
+                  "ko": "보통"
                 }
               },
               {
                 "id": "low",
                 "title": {
                   "en": "Low",
-                  "nl": "Laag"
+                  "nl": "Laag",
+                  "da": "Lav",
+                  "de": "Niedrig",
+                  "es": "Bajo",
+                  "fr": "Faible",
+                  "it": "Basso",
+                  "no": "Lav",
+                  "sv": "Låg",
+                  "pl": "Niski",
+                  "ru": "Низкий",
+                  "ko": "낮음"
                 }
               },
               {
                 "id": "unknown",
                 "title": {
                   "en": "Unknown",
-                  "nl": "Onbekend"
+                  "nl": "Onbekend",
+                  "da": "Ukendt",
+                  "de": "Unbekannt",
+                  "es": "Desconocido",
+                  "fr": "Inconnu",
+                  "it": "Sconosciuto",
+                  "no": "Ukjent",
+                  "sv": "Okänd",
+                  "pl": "Nieznany",
+                  "ru": "Неизвестно",
+                  "ko": "알 수 없음"
                 }
               }
             ]
@@ -266,7 +508,17 @@
       {
         "title": {
           "en": "The device went offline",
-          "nl": "Het apparaat ging offline"
+          "nl": "Het apparaat ging offline",
+          "da": "Enheden gik offline",
+          "de": "Das Gerät ging offline",
+          "es": "El dispositivo se desconectó",
+          "fr": "L'appareil est passé hors ligne",
+          "it": "Il dispositivo è andato offline",
+          "no": "Enheten gikk offline",
+          "sv": "Enheten gick offline",
+          "pl": "Urządzenie się rozłączyło",
+          "ru": "Устройство отключилось",
+          "ko": "기기가 오프라인 상태가 되었습니다"
         },
         "platforms": [
           "local"
@@ -283,7 +535,17 @@
       {
         "title": {
           "en": "The device came online",
-          "nl": "Het apparaat kwam online"
+          "nl": "Het apparaat kwam online",
+          "da": "Enheden kom online",
+          "de": "Das Gerät ist online gegangen",
+          "es": "El dispositivo se conectó",
+          "fr": "L'appareil s'est connecté",
+          "it": "Il dispositivo è online",
+          "no": "Enheten ble koblet til",
+          "sv": "Enheten kom online",
+          "pl": "Urządzenie połączyło się z siecią",
+          "ru": "Устройство вышло в сеть",
+          "ko": "디바이스가 온라인 상태가 되었습니다"
         },
         "platforms": [
           "local"
@@ -302,7 +564,17 @@
       {
         "title": {
           "en": "The budget alarm is !{{on|off}}",
-          "nl": "De begrotingwaarschuwing is !{{aan|uit}}"
+          "nl": "De begrotingwaarschuwing is !{{aan|uit}}",
+          "da": "Budgetalarmen er !{{til|fra}}",
+          "de": "Der Budgetalarm ist !{{ein|aus}}",
+          "es": "La alarma de presupuesto está !{{activada|desactivada}}",
+          "fr": "L'alarme budgétaire est !{{activée|désactivée}}",
+          "it": "L'allarme del budget è !{{attivo|spento}}",
+          "no": "Budsjettalarmen er !{{på|av}}",
+          "sv": "Budgetlarmet är !{{på|av}}",
+          "pl": "Alarm budżetowy jest !{{włączony|wyłączony}}",
+          "ru": "Бюджетная сигнализация !{{включена|выключена}}",
+          "ko": "예산 경보가 !{{켜짐|꺼짐}}"
         },
         "platforms": [
           "local"
@@ -319,7 +591,17 @@
       {
         "title": {
           "en": "The leakage alarm is !{{on|off}}",
-          "nl": "De lekkagewaarschuwing is !{{aan|uit}}"
+          "nl": "De lekkagewaarschuwing is !{{aan|uit}}",
+          "da": "Lækningsalarmen er !{{til|fra}}",
+          "de": "Der Leckagealarm ist !{{ein|aus}}",
+          "es": "La alarma de fuga está !{{activada|desactivada}}",
+          "fr": "L'alarme de fuite est !{{activée|désactivée}}",
+          "it": "L'allarme di perdita è !{{attivato|disattivato}}",
+          "no": "Lekkasjealarmen er !{{på|av}}",
+          "sv": "Läckagelarmet är !{{på|av}}",
+          "pl": "Alarm wycieku jest !{{włączony|wyłączony}}",
+          "ru": "Сигнализация утечки !{{включена|выключена}}",
+          "ko": "누수 경보가 !{{켜짐|꺼짐}}"
         },
         "platforms": [
           "local"
@@ -336,7 +618,17 @@
       {
         "title": {
           "en": "The usage alarm is !{{on|off}}",
-          "nl": "De verbruikwaarschuwing is !{{aan|uit}}"
+          "nl": "De verbruikwaarschuwing is !{{aan|uit}}",
+          "da": "Brugsalarmen er !{{til|fra}}",
+          "de": "Der Nutzungsalarm ist !{{ein|aus}}",
+          "es": "La alarma de uso está !{{activada|desactivada}}",
+          "fr": "L'alarme d'utilisation est !{{activée|désactivée}}",
+          "it": "L'allarme di utilizzo è !{{attivato|disattivato}}",
+          "no": "Bruksalarmen er !{{på|av}}",
+          "sv": "Användningslarmet är !{{på|av}}",
+          "pl": "Alarm użycia jest !{{włączony|wyłączony}}",
+          "ru": "Сигнализация использования !{{включена|выключена}}",
+          "ko": "사용 알람은 !{{켜짐|꺼짐}}"
         },
         "platforms": [
           "local"
@@ -353,7 +645,17 @@
       {
         "title": {
           "en": "Away Mode is turned !{{on|off}}",
-          "nl": "Weg modus is !{{in|uit}}geschakeld"
+          "nl": "Weg modus is !{{in|uit}}geschakeld",
+          "da": "Away Mode er slået !{{til|fra}}",
+          "de": "Der Abwesenheitsmodus ist !{{ein|aus}}geschaltet",
+          "es": "El Modo Ausente está !{{activado|desactivado}}",
+          "fr": "Le mode Absent est !{{activé|désactivé}}",
+          "it": "La Modalità Assente è !{{attivata|disattivata}}",
+          "no": "Bortemodus er !{{på|av}}",
+          "sv": "Bortamod är !{{på|av}}",
+          "pl": "Tryb nieobecności jest !{{włączony|wyłączony}}",
+          "ru": "Режим отсутствия !{{включен|выключен}}",
+          "ko": "외출 모드가 !{{켜짐|꺼짐}}"
         },
         "platforms": [
           "local"
@@ -370,11 +672,31 @@
       {
         "title": {
           "en": "The battery level !{{is|is not}}",
-          "nl": "Het batterijniveau !{{is|is niet}}"
+          "nl": "Het batterijniveau !{{is|is niet}}",
+          "da": "Batteriniveauet !{{er|er ikke}}",
+          "de": "Der Batteriestand !{{ist|ist nicht}}",
+          "es": "El nivel de batería !{{es|no es}}",
+          "fr": "Le niveau de la batterie !{{est|n'est pas}}",
+          "it": "Il livello della batteria !{{è|non è}}",
+          "no": "Batterinivået !{{er|er ikke}}",
+          "sv": "Batterinivån !{{är|är inte}}",
+          "pl": "Poziom baterii !{{jest|nie jest}}",
+          "ru": "Уровень заряда батареи !{{есть|не есть}}",
+          "ko": "배터리 수준이 !{{입니다|아닙니다}}"
         },
         "titleFormatted": {
           "en": "The battery level !{{is|is not}} [[battery_level]]",
-          "nl": "Het batterijniveau !{{is|is niet}} [[battery_level]]"
+          "nl": "Het batterijniveau !{{is|is niet}} [[battery_level]]",
+          "da": "Batteriniveauet !{{er|er ikke}} [[battery_level]]",
+          "de": "Der Batteriestand !{{ist|ist nicht}} [[battery_level]]",
+          "es": "El nivel de batería !{{es|no es}} [[battery_level]]",
+          "fr": "Le niveau de la batterie !{{est|n'est pas}} [[battery_level]]",
+          "it": "Il livello della batteria !{{è|non è}} [[battery_level]]",
+          "no": "Batterinivået !{{er|er ikke}} [[battery_level]]",
+          "sv": "Batterinivån !{{är|är inte}} [[battery_level]]",
+          "pl": "Poziom baterii !{{jest|nie jest}} [[battery_level]]",
+          "ru": "Уровень заряда батареи !{{есть|не есть}} [[battery_level]]",
+          "ko": "배터리 수준이 !{{입니다|아닙니다}} [[battery_level]]"
         },
         "platforms": [
           "local"
@@ -385,35 +707,85 @@
             "name": "battery_level",
             "title": {
               "en": "level",
-              "nl": "niveau"
+              "nl": "niveau",
+              "da": "niveau",
+              "de": "Niveau",
+              "es": "nivel",
+              "fr": "niveau",
+              "it": "livello",
+              "no": "nivå",
+              "sv": "nivå",
+              "pl": "poziom",
+              "ru": "уровень",
+              "ko": "수준"
             },
             "values": [
               {
                 "id": "high",
                 "title": {
                   "en": "High",
-                  "nl": "Hoog"
+                  "nl": "Hoog",
+                  "da": "Høj",
+                  "de": "Hoch",
+                  "es": "Alto",
+                  "fr": "Élevé",
+                  "it": "Alto",
+                  "no": "Høy",
+                  "sv": "Hög",
+                  "pl": "Wysoki",
+                  "ru": "Высокий",
+                  "ko": "높음"
                 }
               },
               {
                 "id": "medium",
                 "title": {
                   "en": "Normal",
-                  "nl": "Normaal"
+                  "nl": "Normaal",
+                  "da": "Normal",
+                  "de": "Normal",
+                  "es": "Normal",
+                  "fr": "Normal",
+                  "it": "Normale",
+                  "no": "Normal",
+                  "sv": "Normal",
+                  "pl": "Normalny",
+                  "ru": "Нормальный",
+                  "ko": "보통"
                 }
               },
               {
                 "id": "low",
                 "title": {
                   "en": "Low",
-                  "nl": "Laag"
+                  "nl": "Laag",
+                  "da": "Lav",
+                  "de": "Niedrig",
+                  "es": "Bajo",
+                  "fr": "Faible",
+                  "it": "Basso",
+                  "no": "Lav",
+                  "sv": "Låg",
+                  "pl": "Niski",
+                  "ru": "Низкий",
+                  "ko": "낮음"
                 }
               },
               {
                 "id": "unknown",
                 "title": {
                   "en": "Unknown",
-                  "nl": "Onbekend"
+                  "nl": "Onbekend",
+                  "da": "Ukendt",
+                  "de": "Unbekannt",
+                  "es": "Desconocido",
+                  "fr": "Inconnu",
+                  "it": "Sconosciuto",
+                  "no": "Ukjent",
+                  "sv": "Okänd",
+                  "pl": "Nieznany",
+                  "ru": "Неизвестно",
+                  "ko": "알 수 없음"
                 }
               }
             ]
@@ -429,7 +801,17 @@
       {
         "title": {
           "en": "The device is !{{on|off}}line",
-          "nl": "Het apparaat is !{{on|off}}line"
+          "nl": "Het apparaat is !{{on|off}}line",
+          "da": "Enheden er !{{på|fra}}line",
+          "de": "Das Gerät ist !{{online|offline}}",
+          "es": "El dispositivo está !{{en|fuera de}} línea",
+          "fr": "L'appareil est !{{en|hors}} ligne",
+          "it": "Il dispositivo è !{{online|offline}}",
+          "no": "Enheten er !{{på|av}}linje",
+          "sv": "Enheten är !{{online|offline}}",
+          "pl": "Urządzenie jest !{{online|offline}}",
+          "ru": "Устройство !{{в|не в}} сети",
+          "ko": "장치가 !{{온라인|오프라인}}입니다"
         },
         "platforms": [
           "local"
@@ -448,11 +830,31 @@
       {
         "title": {
           "en": "Turn off Away Mode",
-          "nl": "Weg modus uitschakelen"
+          "nl": "Weg modus uitschakelen",
+          "da": "Sluk for Away Mode",
+          "de": "Away-Modus ausschalten",
+          "es": "Apagar el modo Ausente",
+          "fr": "Désactiver le mode Absent",
+          "it": "Disattiva la modalità Assente",
+          "no": "Slå av bortemodus",
+          "sv": "Stäng av bortaläge",
+          "pl": "Wyłącz tryb Nieobecny",
+          "ru": "Выключить режим отсутствия",
+          "ko": "부재 모드 끄기"
         },
         "hint": {
           "en": "Use this flowcard to turn off Away Mode.",
-          "nl": "Gebruik deze kaart om weg modus uit te schakelen."
+          "nl": "Gebruik deze kaart om weg modus uit te schakelen.",
+          "da": "Brug dette flowkort til at slukke for Away Mode.",
+          "de": "Verwenden Sie diese Flowkarte, um den Away-Modus auszuschalten.",
+          "es": "Utiliza esta tarjeta de flujo para apagar el modo Ausente.",
+          "fr": "Utilisez cette carte de flux pour désactiver le mode Absent.",
+          "it": "Usa questa scheda per disattivare la modalità Assente.",
+          "no": "Bruk dette flytkortet for å slå av bortemodus.",
+          "sv": "Använd detta flödeskort för att stänga av bortaläge.",
+          "pl": "Użyj tej karty przepływu, aby wyłączyć tryb Nieobecny.",
+          "ru": "Используйте эту карточку потока, чтобы выключить режим отсутствия.",
+          "ko": "이 흐름 카드를 사용하여 부재 모드를 끄세요."
         },
         "platforms": [
           "local"
@@ -469,11 +871,31 @@
       {
         "title": {
           "en": "Turn on Away Mode",
-          "nl": "Weg modus inschakelen"
+          "nl": "Weg modus inschakelen",
+          "da": "Tænd for Away-tilstand",
+          "de": "Abwesenheitsmodus einschalten",
+          "es": "Activar el modo ausente",
+          "fr": "Activer le mode absent",
+          "it": "Attiva la modalità Assente",
+          "no": "Slå på bortemodus",
+          "sv": "Aktivera bortläge",
+          "pl": "Włącz tryb nieobecności",
+          "ru": "Включить режим отсутствия",
+          "ko": "외출 모드 켜기"
         },
         "hint": {
           "en": "Use this flowcard to turn on Away Mode.",
-          "nl": "Gebruik deze kaart om weg modus in te schakelen."
+          "nl": "Gebruik deze kaart om weg modus in te schakelen.",
+          "da": "Brug dette flowkort til at tænde for Away-tilstand.",
+          "de": "Verwende diese Flowkarte, um den Abwesenheitsmodus einzuschalten.",
+          "es": "Utiliza esta tarjeta de flujo para activar el modo ausente.",
+          "fr": "Utilisez cette carte de flux pour activer le mode absent.",
+          "it": "Usa questa scheda flusso per attivare la modalità Assente.",
+          "no": "Bruk dette flytkortet for å slå på bortemodus.",
+          "sv": "Använd detta flödeskort för att aktivera bortläge.",
+          "pl": "Użyj tej karty przepływu, aby włączyć tryb nieobecności.",
+          "ru": "Используйте эту карточку потока, чтобы включить режим отсутствия.",
+          "ko": "이 플로우 카드를 사용하여 외출 모드를 켜세요."
         },
         "platforms": [
           "local"
@@ -525,7 +947,18 @@
         }
       ],
       "name": {
-        "en": "Sensor"
+        "en": "Sensor",
+        "nl": "Sensor",
+        "da": "Sensor",
+        "de": "Sensor",
+        "es": "Sensor",
+        "fr": "Capteur",
+        "it": "Sensore",
+        "no": "Sensor",
+        "sv": "Sensor",
+        "pl": "Czujnik",
+        "ru": "Датчик",
+        "ko": "센서"
       },
       "capabilities": [
         "measure_water",
@@ -541,14 +974,26 @@
       "energy": {
         "batteries": [
           "OTHER"
-        ]
+        ],
+        "cumulative": true
       },
       "id": "sensor",
       "settings": [
         {
           "type": "group",
           "label": {
-            "en": "Product"
+            "en": "Product",
+            "nl": "Product",
+            "da": "Produkt",
+            "de": "Produkt",
+            "es": "Producto",
+            "fr": "Produit",
+            "it": "Prodotto",
+            "no": "Produkt",
+            "sv": "Produkt",
+            "pl": "Produkt",
+            "ru": "Продукт",
+            "ko": "제품"
           },
           "children": [
             {
@@ -556,12 +1001,32 @@
               "type": "label",
               "label": {
                 "en": "Name",
-                "nl": "Naam"
+                "nl": "Naam",
+                "da": "Navn",
+                "de": "Name",
+                "es": "Nombre",
+                "fr": "Nom",
+                "it": "Nome",
+                "no": "Navn",
+                "sv": "Namn",
+                "pl": "Nazwa",
+                "ru": "Название",
+                "ko": "이름"
               },
               "value": "-",
               "hint": {
                 "en": "The name of product.",
-                "nl": "De naam van het product."
+                "nl": "De naam van het product.",
+                "da": "Produktets navn.",
+                "de": "Der Name des Produkts.",
+                "es": "El nombre del producto.",
+                "fr": "Le nom du produit.",
+                "it": "Il nome del prodotto.",
+                "no": "Produktets navn.",
+                "sv": "Produktens namn.",
+                "pl": "Nazwa produktu.",
+                "ru": "Название продукта.",
+                "ko": "제품 이름."
               }
             }
           ]
@@ -570,7 +1035,17 @@
           "type": "group",
           "label": {
             "en": "Location",
-            "nl": "Locatie"
+            "nl": "Locatie",
+            "da": "Beliggenhed",
+            "de": "Standort",
+            "es": "Ubicación",
+            "fr": "Emplacement",
+            "it": "Posizione",
+            "no": "Plassering",
+            "sv": "Plats",
+            "pl": "Lokalizacja",
+            "ru": "Местоположение",
+            "ko": "위치"
           },
           "children": [
             {
@@ -578,12 +1053,32 @@
               "type": "checkbox",
               "label": {
                 "en": "Away Mode",
-                "nl": "Weg modus"
+                "nl": "Weg modus",
+                "da": "Udemode",
+                "de": "Abwesenheitsmodus",
+                "es": "Modo Fuera",
+                "fr": "Mode Absent",
+                "it": "Modalità Assente",
+                "no": "Bortemodus",
+                "sv": "Bortläge",
+                "pl": "Tryb Nieobecny",
+                "ru": "Режим Отсутствия",
+                "ko": "외출 모드"
               },
               "value": false,
               "hint": {
                 "en": "Away Mode is turned on.",
-                "nl": "Weg modus is ingeschakeld."
+                "nl": "Weg modus is ingeschakeld.",
+                "da": "Udemode er aktiveret.",
+                "de": "Abwesenheitsmodus ist aktiviert.",
+                "es": "El Modo Fuera está activado.",
+                "fr": "Le mode Absent est activé.",
+                "it": "La Modalità Assente è attivata.",
+                "no": "Bortemodus er på.",
+                "sv": "Bortläge är aktiverat.",
+                "pl": "Tryb Nieobecny jest włączony.",
+                "ru": "Режим Отсутствия включён.",
+                "ko": "외출 모드가 켜져 있습니다."
               }
             }
           ]
@@ -596,18 +1091,48 @@
       "type": "boolean",
       "title": {
         "en": "Budget alarm",
-        "nl": "Begroting alarm"
+        "nl": "Begroting alarm",
+        "da": "Budget alarm",
+        "de": "Budgetalarm",
+        "es": "Alarma de presupuesto",
+        "fr": "Alarme budgétaire",
+        "it": "Allarme budget",
+        "no": "Budsjettalarm",
+        "sv": "Budgetlarm",
+        "pl": "Alarm budżetowy",
+        "ru": "Бюджетный сигнал тревоги",
+        "ko": "예산 경보"
       },
       "getable": true,
       "setable": false,
       "insights": true,
       "insightsTitleTrue": {
         "en": "Budget alarm turned on",
-        "nl": "Begrotingalarm ging af"
+        "nl": "Begrotingalarm ging af",
+        "da": "Budgetalarm slået til",
+        "de": "Budgetalarm eingeschaltet",
+        "es": "Alarma de presupuesto activada",
+        "fr": "Alarme budgétaire activée",
+        "it": "Allarme budget attivato",
+        "no": "Budsjettalarm slått på",
+        "sv": "Budgetlarm aktiverat",
+        "pl": "Alarm budżetowy włączony",
+        "ru": "Бюджетный сигнал включен",
+        "ko": "예산 경보가 켜짐"
       },
       "insightsTitleFalse": {
         "en": "Budget alarm turned off",
-        "nl": "Begrotingalarm ging uit"
+        "nl": "Begrotingalarm ging uit",
+        "da": "Budgetalarm slået fra",
+        "de": "Budgetalarm ausgeschaltet",
+        "es": "Alarma de presupuesto desactivada",
+        "fr": "Alarme budgétaire désactivée",
+        "it": "Allarme budget disattivato",
+        "no": "Budsjettalarm slått av",
+        "sv": "Budgetlarm avstängt",
+        "pl": "Alarm budżetowy wyłączony",
+        "ru": "Бюджетный сигнал выключен",
+        "ko": "예산 경보가 꺼짐"
       },
       "uiComponent": "sensor",
       "icon": "/assets/capabilities/alarm_budget.svg"
@@ -616,18 +1141,48 @@
       "type": "boolean",
       "title": {
         "en": "Leakage alarm",
-        "nl": "Lekkage alarm"
+        "nl": "Lekkage alarm",
+        "da": "Lækagealarm",
+        "de": "Leckagealarm",
+        "es": "Alarma de fuga",
+        "fr": "Alarme de fuite",
+        "it": "Allarme perdita",
+        "no": "Lekkasjealarm",
+        "sv": "Läckagealarm",
+        "pl": "Alarm przecieku",
+        "ru": "Сигнализация утечки",
+        "ko": "누수 경보"
       },
       "getable": true,
       "setable": false,
       "insights": true,
       "insightsTitleTrue": {
         "en": "Leakage alarm turned on",
-        "nl": "Lekkagealarm ging af"
+        "nl": "Lekkagealarm ging af",
+        "da": "Lækagealarm tændt",
+        "de": "Leckagealarm eingeschaltet",
+        "es": "Alarma de fuga activada",
+        "fr": "Alarme de fuite activée",
+        "it": "Allarme perdita attivato",
+        "no": "Lekkasjealarm slått på",
+        "sv": "Läckagealarm aktiverad",
+        "pl": "Alarm przecieku włączony",
+        "ru": "Сигнализация утечки включена",
+        "ko": "누수 경보가 켜짐"
       },
       "insightsTitleFalse": {
         "en": "Leakage alarm turned off",
-        "nl": "Lekkagealarm ging uit"
+        "nl": "Lekkagealarm ging uit",
+        "da": "Lækagealarm slukket",
+        "de": "Leckagealarm ausgeschaltet",
+        "es": "Alarma de fuga desactivada",
+        "fr": "Alarme de fuite désactivée",
+        "it": "Allarme perdita disattivato",
+        "no": "Lekkasjealarm slått av",
+        "sv": "Läckagealarm deaktiverad",
+        "pl": "Alarm przecieku wyłączony",
+        "ru": "Сигнализация утечки выключена",
+        "ko": "누수 경보가 꺼짐"
       },
       "uiComponent": "sensor",
       "icon": "/assets/capabilities/alarm_leak.svg"
@@ -636,18 +1191,48 @@
       "type": "boolean",
       "title": {
         "en": "Usage alarm",
-        "nl": "Verbruik alarm"
+        "nl": "Verbruik alarm",
+        "da": "Brugsalarm",
+        "de": "Nutzungsalarm",
+        "es": "Alarma de uso",
+        "fr": "Alarme d'utilisation",
+        "it": "Allarme di utilizzo",
+        "no": "Bruksalarm",
+        "sv": "Användningslarm",
+        "pl": "Alarm zużycia",
+        "ru": "Сигнализация использования",
+        "ko": "사용 경고"
       },
       "getable": true,
       "setable": false,
       "insights": true,
       "insightsTitleTrue": {
         "en": "Usage alarm turned on",
-        "nl": "Verbruikalarm ging af"
+        "nl": "Verbruikalarm ging af",
+        "da": "Brugsalarm aktiveret",
+        "de": "Nutzungsalarm eingeschaltet",
+        "es": "Alarma de uso activada",
+        "fr": "L'alarme d'utilisation est activée",
+        "it": "Allarme di utilizzo attivato",
+        "no": "Bruksalarm aktivert",
+        "sv": "Användningslarm aktiverat",
+        "pl": "Alarm zużycia włączony",
+        "ru": "Сигнализация использования включена",
+        "ko": "사용 경고 켜짐"
       },
       "insightsTitleFalse": {
         "en": "Usage alarm turned off",
-        "nl": "Verbruikalarm ging uit"
+        "nl": "Verbruikalarm ging uit",
+        "da": "Brugsalarm slukket",
+        "de": "Nutzungsalarm ausgeschaltet",
+        "es": "Alarma de uso desactivada",
+        "fr": "L'alarme d'utilisation est désactivée",
+        "it": "Allarme di utilizzo disattivato",
+        "no": "Bruksalarm deaktivert",
+        "sv": "Användningslarm avstängt",
+        "pl": "Alarm zużycia wyłączony",
+        "ru": "Сигнализация использования выключена",
+        "ko": "사용 경고 꺼짐"
       },
       "uiComponent": "sensor",
       "icon": "/assets/capabilities/alarm_usage.svg"
@@ -656,18 +1241,48 @@
       "type": "boolean",
       "title": {
         "en": "Away mode",
-        "nl": "Weg modus"
+        "nl": "Weg modus",
+        "da": "Væk-tilstand",
+        "de": "Abwesenheitsmodus",
+        "es": "Modo ausente",
+        "fr": "Mode absent",
+        "it": "Modalità assente",
+        "no": "Bortemodus",
+        "sv": "Bortamodus",
+        "pl": "Tryb nieobecności",
+        "ru": "Режим отсутствия",
+        "ko": "부재 모드"
       },
       "getable": true,
       "setable": false,
       "insights": true,
       "insightsTitleTrue": {
         "en": "Away mode turned on",
-        "nl": "Weg modus ingeschakeld"
+        "nl": "Weg modus ingeschakeld",
+        "da": "Væk-tilstand aktiveret",
+        "de": "Abwesenheitsmodus eingeschaltet",
+        "es": "Modo ausente activado",
+        "fr": "Mode absent activé",
+        "it": "Modalità assente attivata",
+        "no": "Bortemodus aktivert",
+        "sv": "Bortamodus aktiverat",
+        "pl": "Tryb nieobecności włączony",
+        "ru": "Режим отсутствия включен",
+        "ko": "부재 모드가 켜짐"
       },
       "insightsTitleFalse": {
         "en": "Away mode turned off",
-        "nl": "Weg modus uitgeschakeld"
+        "nl": "Weg modus uitgeschakeld",
+        "da": "Væk-tilstand deaktiveret",
+        "de": "Abwesenheitsmodus ausgeschaltet",
+        "es": "Modo ausente desactivado",
+        "fr": "Mode absent désactivé",
+        "it": "Modalità assente disattivata",
+        "no": "Bortemodus deaktivert",
+        "sv": "Bortamodus avstängt",
+        "pl": "Tryb nieobecności wyłączony",
+        "ru": "Режим отсутствия выключен",
+        "ko": "부재 모드가 꺼짐"
       },
       "uiComponent": null
     },
@@ -675,7 +1290,17 @@
       "type": "enum",
       "title": {
         "en": "Battery level",
-        "nl": "Batterijniveau"
+        "nl": "Batterijniveau",
+        "da": "Batteriniveau",
+        "de": "Batteriestand",
+        "es": "Nivel de batería",
+        "fr": "Niveau de batterie",
+        "it": "Livello della batteria",
+        "no": "Batterinivå",
+        "sv": "Batterinivå",
+        "pl": "Poziom baterii",
+        "ru": "Уровень заряда батареи",
+        "ko": "배터리 수준"
       },
       "getable": true,
       "setable": false,
@@ -684,28 +1309,68 @@
           "id": "high",
           "title": {
             "en": "High",
-            "nl": "Hoog"
+            "nl": "Hoog",
+            "da": "Høj",
+            "de": "Hoch",
+            "es": "Alto",
+            "fr": "Haut",
+            "it": "Alto",
+            "no": "Høy",
+            "sv": "Hög",
+            "pl": "Wysoki",
+            "ru": "Высокий",
+            "ko": "높음"
           }
         },
         {
           "id": "medium",
           "title": {
             "en": "Normal",
-            "nl": "Normaal"
+            "nl": "Normaal",
+            "da": "Normal",
+            "de": "Normal",
+            "es": "Normal",
+            "fr": "Normal",
+            "it": "Normale",
+            "no": "Normal",
+            "sv": "Normal",
+            "pl": "Normalny",
+            "ru": "Нормальный",
+            "ko": "보통"
           }
         },
         {
           "id": "low",
           "title": {
             "en": "Low",
-            "nl": "Laag"
+            "nl": "Laag",
+            "da": "Lav",
+            "de": "Niedrig",
+            "es": "Bajo",
+            "fr": "Bas",
+            "it": "Basso",
+            "no": "Lav",
+            "sv": "Låg",
+            "pl": "Niski",
+            "ru": "Низкий",
+            "ko": "낮음"
           }
         },
         {
           "id": "unknown",
           "title": {
             "en": "Unknown",
-            "nl": "Onbekend"
+            "nl": "Onbekend",
+            "da": "Ukendt",
+            "de": "Unbekannt",
+            "es": "Desconocido",
+            "fr": "Inconnu",
+            "it": "Sconosciuto",
+            "no": "Ukjent",
+            "sv": "Okänd",
+            "pl": "Nieznany",
+            "ru": "Неизвестный",
+            "ko": "알 수 없음"
           }
         }
       ],
@@ -716,18 +1381,48 @@
       "type": "boolean",
       "title": {
         "en": "Connected",
-        "nl": "Verbonden"
+        "nl": "Verbonden",
+        "da": "Tilsluttet",
+        "de": "Verbunden",
+        "es": "Conectado",
+        "fr": "Connecté",
+        "it": "Connesso",
+        "no": "Tilkoblet",
+        "sv": "Ansluten",
+        "pl": "Połączony",
+        "ru": "Подключено",
+        "ko": "연결됨"
       },
       "getable": true,
       "setable": false,
       "insights": true,
       "insightsTitleTrue": {
         "en": "Device online",
-        "nl": "Apparaat online"
+        "nl": "Apparaat online",
+        "da": "Enhed online",
+        "de": "Gerät online",
+        "es": "Dispositivo en línea",
+        "fr": "Appareil en ligne",
+        "it": "Dispositivo online",
+        "no": "Enhet på nett",
+        "sv": "Enhet online",
+        "pl": "Urządzenie online",
+        "ru": "Устройство в сети",
+        "ko": "장치 온라인"
       },
       "insightsTitleFalse": {
         "en": "Device offline",
-        "nl": "Apparaat offline"
+        "nl": "Apparaat offline",
+        "da": "Enhed offline",
+        "de": "Gerät offline",
+        "es": "Dispositivo fuera de línea",
+        "fr": "Appareil hors ligne",
+        "it": "Dispositivo offline",
+        "no": "Enhet frakoblet",
+        "sv": "Enhet offline",
+        "pl": "Urządzenie offline",
+        "ru": "Устройство не в сети",
+        "ko": "장치 오프라인"
       },
       "uiComponent": null
     }

@@ -1,0 +1,20 @@
+{
+  "authentication": {
+    "connecting": "Łączenie..."
+  },
+  "error": {
+    "400": "Urządzenie nie znaleziono w koncie Flume",
+    "401": "Nieprawidłowe dane logowania do API Flume",
+    "403": "API Flume odmówiło dostępu do tego urządzenia",
+    "404": "Urządzenie nie znaleziono w koncie Flume",
+    "50x": "API Flume jest niedostępne",
+    "invalid_client": "Te dane logowania są nieprawidłowe",
+    "network": "API Flume jest nieosiągalne",
+    "unknown": "Wystąpił nieznany błąd"
+  },
+  "pair": {
+    "password": "Hasło",
+    "title": "Zaloguj się swoimi danymi",
+    "username": "Adres e-mail"
+  }
+}

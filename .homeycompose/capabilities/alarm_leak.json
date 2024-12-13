@@ -2,18 +2,48 @@
   "type": "boolean",
   "title": {
     "en": "Leakage alarm",
-    "nl": "Lekkage alarm"
+    "nl": "Lekkage alarm",
+    "da": "Lækagealarm",
+    "de": "Leckagealarm",
+    "es": "Alarma de fuga",
+    "fr": "Alarme de fuite",
+    "it": "Allarme perdita",
+    "no": "Lekkasjealarm",
+    "sv": "Läckagealarm",
+    "pl": "Alarm przecieku",
+    "ru": "Сигнализация утечки",
+    "ko": "누수 경보"
   },
   "getable": true,
   "setable": false,
   "insights": true,
   "insightsTitleTrue": {
     "en": "Leakage alarm turned on",
-    "nl": "Lekkagealarm ging af"
+    "nl": "Lekkagealarm ging af",
+    "da": "Lækagealarm tændt",
+    "de": "Leckagealarm eingeschaltet",
+    "es": "Alarma de fuga activada",
+    "fr": "Alarme de fuite activée",
+    "it": "Allarme perdita attivato",
+    "no": "Lekkasjealarm slått på",
+    "sv": "Läckagealarm aktiverad",
+    "pl": "Alarm przecieku włączony",
+    "ru": "Сигнализация утечки включена",
+    "ko": "누수 경보가 켜짐"
   },
   "insightsTitleFalse": {
     "en": "Leakage alarm turned off",
-    "nl": "Lekkagealarm ging uit"
+    "nl": "Lekkagealarm ging uit",
+    "da": "Lækagealarm slukket",
+    "de": "Leckagealarm ausgeschaltet",
+    "es": "Alarma de fuga desactivada",
+    "fr": "Alarme de fuite désactivée",
+    "it": "Allarme perdita disattivato",
+    "no": "Lekkasjealarm slått av",
+    "sv": "Läckagealarm deaktiverad",
+    "pl": "Alarm przecieku wyłączony",
+    "ru": "Сигнализация утечки выключена",
+    "ko": "누수 경보가 꺼짐"
   },
   "uiComponent": "sensor",
   "icon": "/assets/capabilities/alarm_leak.svg"
