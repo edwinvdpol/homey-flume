@@ -16,7 +16,8 @@
   "energy": {
     "batteries": [
       "OTHER"
-    ]
+    ],
+    "cumulative": true
   },
   "$extends": [
     "defaults"
