@@ -31,5 +31,51 @@
     {
       "id": "credentials"
     }
+  ],
+  "settings": [
+    {
+      "type": "group",
+      "label": {
+        "en": "Product",
+        "nl": "Product",
+        "da": "Produkt",
+        "de": "Produkt",
+        "es": "Producto",
+        "fr": "Produit",
+        "it": "Prodotto",
+        "no": "Produkt",
+        "sv": "Produkt",
+        "pl": "Produkt",
+        "ru": "Продукт",
+        "ko": "제품"
+      },
+      "children": [
+        {
+          "$extends": "product_name"
+        }
+      ]
+    },
+    {
+      "type": "group",
+      "label": {
+        "en": "Location",
+        "nl": "Locatie",
+        "da": "Beliggenhed",
+        "de": "Standort",
+        "es": "Ubicación",
+        "fr": "Emplacement",
+        "it": "Posizione",
+        "no": "Plassering",
+        "sv": "Plats",
+        "pl": "Lokalizacja",
+        "ru": "Местоположение",
+        "ko": "위치"
+      },
+      "children": [
+        {
+          "$extends": "away_mode"
+        }
+      ]
+    }
   ]
 }

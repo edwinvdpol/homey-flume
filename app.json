@@ -946,38 +946,6 @@
           "id": "credentials"
         }
       ],
-      "name": {
-        "en": "Sensor",
-        "nl": "Sensor",
-        "da": "Sensor",
-        "de": "Sensor",
-        "es": "Sensor",
-        "fr": "Capteur",
-        "it": "Sensore",
-        "no": "Sensor",
-        "sv": "Sensor",
-        "pl": "Czujnik",
-        "ru": "Датчик",
-        "ko": "센서"
-      },
-      "capabilities": [
-        "measure_water",
-        "meter_water",
-        "alarm_leak",
-        "alarm_usage",
-        "alarm_battery",
-        "alarm_budget",
-        "battery_level",
-        "away_mode",
-        "connected"
-      ],
-      "energy": {
-        "batteries": [
-          "OTHER"
-        ],
-        "cumulative": true
-      },
-      "id": "sensor",
       "settings": [
         {
           "type": "group",
@@ -1083,7 +1051,39 @@
             }
           ]
         }
-      ]
+      ],
+      "name": {
+        "en": "Sensor",
+        "nl": "Sensor",
+        "da": "Sensor",
+        "de": "Sensor",
+        "es": "Sensor",
+        "fr": "Capteur",
+        "it": "Sensore",
+        "no": "Sensor",
+        "sv": "Sensor",
+        "pl": "Czujnik",
+        "ru": "Датчик",
+        "ko": "센서"
+      },
+      "capabilities": [
+        "measure_water",
+        "meter_water",
+        "alarm_leak",
+        "alarm_usage",
+        "alarm_battery",
+        "alarm_budget",
+        "battery_level",
+        "away_mode",
+        "connected"
+      ],
+      "energy": {
+        "batteries": [
+          "OTHER"
+        ],
+        "cumulative": true
+      },
+      "id": "sensor"
     }
   ],
   "capabilities": {
