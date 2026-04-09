@@ -3,14 +3,14 @@
     "connecting": "Verbinden..."
   },
   "error": {
-    "400": "Gerät im Flume-Konto nicht gefunden",
-    "401": "Flume API-Anmeldeinformationen sind falsch",
-    "403": "Flume API hat den Zugriff auf dieses Gerät verweigert",
-    "404": "Gerät im Flume-Konto nicht gefunden",
-    "50x": "Flume API ist nicht verfügbar",
-    "invalid_client": "Diese Anmeldeinformationen sind falsch",
-    "network": "Flume API ist nicht erreichbar",
-    "unknown": "Ein unbekannter Fehler ist aufgetreten"
+    "400": "Gerät im Flume-Konto nicht gefunden.",
+    "401": "Flume API-Anmeldeinformationen sind falsch.",
+    "403": "Flume API hat den Zugriff auf dieses Gerät verweigert.",
+    "404": "Gerät im Flume-Konto nicht gefunden.",
+    "50x": "Flume API ist nicht verfügbar.",
+    "invalid_client": "Diese Anmeldeinformationen sind falsch.",
+    "network": "Flume API ist nicht erreichbar.",
+    "unknown": "Ein unbekannter Fehler ist aufgetreten."
   },
   "pair": {
     "password": "Passwort",
