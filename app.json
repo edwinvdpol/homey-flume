@@ -2,7 +2,7 @@
   "_comment": "This file is generated. Please edit .homeycompose/app.json instead.",
   "id": "com.flume",
   "version": "1.1.3",
-  "compatibility": ">=7.4.0",
+  "compatibility": ">=12.2.0",
   "platforms": [
     "local"
   ],
@@ -504,60 +504,6 @@
           }
         ],
         "id": "battery_level_changed"
-      },
-      {
-        "title": {
-          "en": "The device went offline",
-          "nl": "Het apparaat ging offline",
-          "da": "Enheden gik offline",
-          "de": "Das Gerät ging offline",
-          "es": "El dispositivo se desconectó",
-          "fr": "L'appareil est passé hors ligne",
-          "it": "Il dispositivo è andato offline",
-          "no": "Enheten gikk offline",
-          "sv": "Enheten gick offline",
-          "pl": "Urządzenie się rozłączyło",
-          "ru": "Устройство отключилось",
-          "ko": "기기가 오프라인 상태가 되었습니다"
-        },
-        "platforms": [
-          "local"
-        ],
-        "args": [
-          {
-            "type": "device",
-            "name": "device",
-            "filter": "driver_id=sensor&capabilities=connected"
-          }
-        ],
-        "id": "connected_false"
-      },
-      {
-        "title": {
-          "en": "The device came online",
-          "nl": "Het apparaat kwam online",
-          "da": "Enheden kom online",
-          "de": "Das Gerät ist online gegangen",
-          "es": "El dispositivo se conectó",
-          "fr": "L'appareil s'est connecté",
-          "it": "Il dispositivo è online",
-          "no": "Enheten ble koblet til",
-          "sv": "Enheten kom online",
-          "pl": "Urządzenie połączyło się z siecią",
-          "ru": "Устройство вышло в сеть",
-          "ko": "디바이스가 온라인 상태가 되었습니다"
-        },
-        "platforms": [
-          "local"
-        ],
-        "args": [
-          {
-            "type": "device",
-            "name": "device",
-            "filter": "driver_id=sensor&capabilities=connected"
-          }
-        ],
-        "id": "connected_true"
       }
     ],
     "conditions": [
@@ -797,33 +743,6 @@
           }
         ],
         "id": "battery_level"
-      },
-      {
-        "title": {
-          "en": "The device is !{{on|off}}line",
-          "nl": "Het apparaat is !{{on|off}}line",
-          "da": "Enheden er !{{på|fra}}line",
-          "de": "Das Gerät ist !{{online|offline}}",
-          "es": "El dispositivo está !{{en|fuera de}} línea",
-          "fr": "L'appareil est !{{en|hors}} ligne",
-          "it": "Il dispositivo è !{{online|offline}}",
-          "no": "Enheten er !{{på|av}}linje",
-          "sv": "Enheten är !{{online|offline}}",
-          "pl": "Urządzenie jest !{{online|offline}}",
-          "ru": "Устройство !{{в|не в}} сети",
-          "ko": "장치가 !{{온라인|오프라인}}입니다"
-        },
-        "platforms": [
-          "local"
-        ],
-        "args": [
-          {
-            "type": "device",
-            "name": "device",
-            "filter": "driver_id=sensor&capabilities=connected"
-          }
-        ],
-        "id": "connected"
       }
     ],
     "actions": [
@@ -1075,7 +994,7 @@
         "alarm_budget",
         "battery_level",
         "away_mode",
-        "connected"
+        "alarm_connectivity"
       ],
       "energy": {
         "batteries": [
@@ -1376,55 +1295,6 @@
       ],
       "uiComponent": "sensor",
       "icon": "/assets/capabilities/battery.svg"
-    },
-    "connected": {
-      "type": "boolean",
-      "title": {
-        "en": "Connected",
-        "nl": "Verbonden",
-        "da": "Tilsluttet",
-        "de": "Verbunden",
-        "es": "Conectado",
-        "fr": "Connecté",
-        "it": "Connesso",
-        "no": "Tilkoblet",
-        "sv": "Ansluten",
-        "pl": "Połączony",
-        "ru": "Подключено",
-        "ko": "연결됨"
-      },
-      "getable": true,
-      "setable": false,
-      "insights": true,
-      "insightsTitleTrue": {
-        "en": "Device online",
-        "nl": "Apparaat online",
-        "da": "Enhed online",
-        "de": "Gerät online",
-        "es": "Dispositivo en línea",
-        "fr": "Appareil en ligne",
-        "it": "Dispositivo online",
-        "no": "Enhet på nett",
-        "sv": "Enhet online",
-        "pl": "Urządzenie online",
-        "ru": "Устройство в сети",
-        "ko": "장치 온라인"
-      },
-      "insightsTitleFalse": {
-        "en": "Device offline",
-        "nl": "Apparaat offline",
-        "da": "Enhed offline",
-        "de": "Gerät offline",
-        "es": "Dispositivo fuera de línea",
-        "fr": "Appareil hors ligne",
-        "it": "Dispositivo offline",
-        "no": "Enhet frakoblet",
-        "sv": "Enhet offline",
-        "pl": "Urządzenie offline",
-        "ru": "Устройство не в сети",
-        "ko": "장치 오프라인"
-      },
-      "uiComponent": null
     }
   }
 }

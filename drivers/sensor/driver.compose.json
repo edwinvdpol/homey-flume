@@ -22,7 +22,7 @@
     "alarm_budget",
     "battery_level",
     "away_mode",
-    "connected"
+    "alarm_connectivity"
   ],
   "energy": {
     "batteries": [
